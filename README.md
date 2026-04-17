@@ -39,7 +39,9 @@ Foundational and advanced routing protocol labs.
 - [OSPF Single Area — Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐
 - [eBGP Three-AS Multi-Vendor](routing/bgp-ebgp-three-as.md) ⭐⭐
+- [IPv6 Dual-Stack Network](routing/ipv6-dual-stack.md) ⭐⭐
 - [BGP Route Reflector Cluster](routing/bgp-route-reflector-cluster.md) ⭐⭐⭐
+- [BGP Confederation](routing/bgp-confederation.md) ⭐⭐⭐
 
 ### 🏢 Data Center
 Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
@@ -54,6 +56,8 @@ MPLS L3VPN, Segment Routing, traffic engineering.
 
 - [MPLS L3VPN Basic](service-provider/mpls-l3vpn-basic.md) ⭐⭐
 - [Segment Routing MPLS](service-provider/segment-routing-mpls.md) ⭐⭐⭐
+- [MPLS Traffic Engineering (SR-TE)](service-provider/mpls-traffic-engineering.md) ⭐⭐⭐
+- [Inter-AS L3VPN Option B](service-provider/inter-as-vpn-option-b.md) ⭐⭐⭐
 
 ### 🔒 Security
 Firewall zones, microsegmentation, zero-trust patterns.
@@ -73,10 +77,14 @@ Where vendors must talk to each other — NetPilot's superpower.
 Test changes safely before pushing to production.
 
 - [Firewall Rule Deployment Test](change-validation/firewall-rule-deployment.md) ⭐⭐
+- [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 
 ### 🛠️ Advanced
 Automation, integration, and complex scenarios.
 
+- [QoS End-to-End Marking and Queuing](advanced/qos-end-to-end-marking.md) ⭐⭐⭐
+- [Multicast PIM Sparse Mode](advanced/multicast-pim-sparse-mode.md) ⭐⭐⭐
+- [Network Telemetry with gNMI Streaming](advanced/network-telemetry-gnmi.md) ⭐⭐⭐
 - [Network-as-Code with Ansible](advanced/network-as-code-with-ansible.md) ⭐⭐⭐
 
 ## Difficulty Levels
