@@ -38,10 +38,13 @@ Foundational and advanced routing protocol labs.
 
 - [OSPF Single Area — Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐
+- [OSPF ↔ BGP Redistribution](routing/ospf-bgp-redistribution.md) ⭐⭐
 - [eBGP Three-AS Multi-Vendor](routing/bgp-ebgp-three-as.md) ⭐⭐
 - [IPv6 Dual-Stack Network](routing/ipv6-dual-stack.md) ⭐⭐
 - [BGP Route Reflector Cluster](routing/bgp-route-reflector-cluster.md) ⭐⭐⭐
 - [BGP Confederation](routing/bgp-confederation.md) ⭐⭐⭐
+- [IS-IS Level 1/2 Hierarchical Backbone](routing/isis-level-1-2-backbone.md) ⭐⭐⭐
+- [DMVPN Hub-and-Spoke](routing/dmvpn-hub-and-spoke.md) ⭐⭐⭐
 
 ### 🏢 Data Center
 Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
@@ -50,6 +53,7 @@ Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
 - [Leaf-Spine EVPN-VXLAN with Symmetric IRB](data-center/leaf-spine-evpn-vxlan-symmetric-irb.md) ⭐⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Asymmetric IRB](data-center/leaf-spine-evpn-vxlan-asymmetric-irb.md) ⭐⭐⭐
 - [EVPN-VXLAN Multi-Site DCI](data-center/evpn-vxlan-multi-site-dci.md) ⭐⭐⭐
+- [Multi-Tenant VRFs with EVPN](data-center/multi-tenant-vrfs-evpn.md) ⭐⭐⭐
 - [AI Cluster RoCEv2 Fabric](data-center/ai-cluster-rocev2-fabric.md) ⭐⭐⭐
 
 ### 🌐 Service Provider
@@ -57,6 +61,7 @@ MPLS L3VPN, Segment Routing, traffic engineering.
 
 - [MPLS L3VPN Basic](service-provider/mpls-l3vpn-basic.md) ⭐⭐
 - [Segment Routing MPLS](service-provider/segment-routing-mpls.md) ⭐⭐⭐
+- [SRv6 — Segment Routing over IPv6](service-provider/srv6-segment-routing-v6.md) ⭐⭐⭐
 - [MPLS Traffic Engineering (SR-TE)](service-provider/mpls-traffic-engineering.md) ⭐⭐⭐
 - [Inter-AS L3VPN Option B](service-provider/inter-as-vpn-option-b.md) ⭐⭐⭐
 
@@ -85,6 +90,7 @@ Test changes safely before pushing to production.
 - [BGP Policy Change Validation](change-validation/bgp-policy-change.md) ⭐⭐⭐
 - [OSPF Area Redesign Migration](change-validation/ospf-area-redesign.md) ⭐⭐⭐
 - [Data Center VLAN Migration](change-validation/data-center-vlan-migration.md) ⭐⭐⭐
+- [OTV-to-EVPN DCI Migration](change-validation/otv-to-evpn-migration.md) ⭐⭐⭐
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 
 ### 🛠️ Advanced
