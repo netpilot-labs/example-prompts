@@ -48,6 +48,7 @@ Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
 
 - [Clos Fabric with BGP Underlay (L3-Only)](data-center/clos-fabric-bgp-underlay.md) ⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Symmetric IRB](data-center/leaf-spine-evpn-vxlan-symmetric-irb.md) ⭐⭐⭐
+- [Leaf-Spine EVPN-VXLAN with Asymmetric IRB](data-center/leaf-spine-evpn-vxlan-asymmetric-irb.md) ⭐⭐⭐
 - [EVPN-VXLAN Multi-Site DCI](data-center/evpn-vxlan-multi-site-dci.md) ⭐⭐⭐
 - [AI Cluster RoCEv2 Fabric](data-center/ai-cluster-rocev2-fabric.md) ⭐⭐⭐
 
@@ -66,17 +67,24 @@ Firewall zones, microsegmentation, zero-trust patterns.
 - [Firewall DMZ Zones (Fortinet)](security/firewall-dmz-zones-fortinet.md) ⭐⭐
 - [IPsec VPN — Site-to-Site](security/ipsec-vpn-site-to-site.md) ⭐⭐
 - [Zero-Trust Microsegmentation](security/zero-trust-microsegmentation.md) ⭐⭐⭐
+- [DDoS Blackhole (RTBH)](security/ddos-rtbh-blackhole.md) ⭐⭐⭐
 
 ### 🔀 Multi-Vendor Interop
 Where vendors must talk to each other — NetPilot's superpower.
 
 - [Cisco + Arista EVPN-VXLAN Interop](multi-vendor/cisco-arista-evpn-vxlan-interop.md) ⭐⭐⭐
+- [Cisco + Juniper MPLS L3VPN Interop](multi-vendor/cisco-juniper-mpls-l3vpn.md) ⭐⭐⭐
+- [Juniper + Nokia IS-IS Interop](multi-vendor/juniper-nokia-isis.md) ⭐⭐⭐
 - [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐
 
 ### ✅ Change Validation
 Test changes safely before pushing to production.
 
 - [Firewall Rule Deployment Test](change-validation/firewall-rule-deployment.md) ⭐⭐
+- [Firmware Upgrade Failover Test](change-validation/firmware-upgrade-failover.md) ⭐⭐
+- [BGP Policy Change Validation](change-validation/bgp-policy-change.md) ⭐⭐⭐
+- [OSPF Area Redesign Migration](change-validation/ospf-area-redesign.md) ⭐⭐⭐
+- [Data Center VLAN Migration](change-validation/data-center-vlan-migration.md) ⭐⭐⭐
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 
 ### 🛠️ Advanced
