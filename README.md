@@ -36,6 +36,7 @@ A curated library of natural-language prompts you can copy and paste directly in
 ### 🚦 Routing
 Foundational and advanced routing protocol labs.
 
+- [OSPF Single Area — Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐
 - [eBGP Three-AS Multi-Vendor](routing/bgp-ebgp-three-as.md) ⭐⭐
 - [BGP Route Reflector Cluster](routing/bgp-route-reflector-cluster.md) ⭐⭐⭐
@@ -43,7 +44,9 @@ Foundational and advanced routing protocol labs.
 ### 🏢 Data Center
 Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
 
+- [Clos Fabric with BGP Underlay (L3-Only)](data-center/clos-fabric-bgp-underlay.md) ⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Symmetric IRB](data-center/leaf-spine-evpn-vxlan-symmetric-irb.md) ⭐⭐⭐
+- [EVPN-VXLAN Multi-Site DCI](data-center/evpn-vxlan-multi-site-dci.md) ⭐⭐⭐
 - [AI Cluster RoCEv2 Fabric](data-center/ai-cluster-rocev2-fabric.md) ⭐⭐⭐
 
 ### 🌐 Service Provider
@@ -56,12 +59,15 @@ MPLS L3VPN, Segment Routing, traffic engineering.
 Firewall zones, microsegmentation, zero-trust patterns.
 
 - [Firewall DMZ Zones (Palo Alto)](security/firewall-dmz-zones-palo-alto.md) ⭐⭐
+- [Firewall DMZ Zones (Fortinet)](security/firewall-dmz-zones-fortinet.md) ⭐⭐
+- [IPsec VPN — Site-to-Site](security/ipsec-vpn-site-to-site.md) ⭐⭐
 - [Zero-Trust Microsegmentation](security/zero-trust-microsegmentation.md) ⭐⭐⭐
 
 ### 🔀 Multi-Vendor Interop
 Where vendors must talk to each other — NetPilot's superpower.
 
 - [Cisco + Arista EVPN-VXLAN Interop](multi-vendor/cisco-arista-evpn-vxlan-interop.md) ⭐⭐⭐
+- [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐
 
 ### ✅ Change Validation
 Test changes safely before pushing to production.
