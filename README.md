@@ -45,6 +45,7 @@ Foundational and advanced routing protocol labs.
 - [BGP Confederation](routing/bgp-confederation.md) ⭐⭐⭐
 - [IS-IS Level 1/2 Hierarchical Backbone](routing/isis-level-1-2-backbone.md) ⭐⭐⭐
 - [DMVPN Hub-and-Spoke](routing/dmvpn-hub-and-spoke.md) ⭐⭐⭐
+- [FRR Babel Mesh Network](routing/frr-babel-mesh.md) ⭐⭐⭐
 
 ### 🏢 Data Center
 Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
@@ -64,6 +65,7 @@ MPLS L3VPN, Segment Routing, traffic engineering.
 - [SRv6 — Segment Routing over IPv6](service-provider/srv6-segment-routing-v6.md) ⭐⭐⭐
 - [MPLS Traffic Engineering (SR-TE)](service-provider/mpls-traffic-engineering.md) ⭐⭐⭐
 - [Inter-AS L3VPN Option B](service-provider/inter-as-vpn-option-b.md) ⭐⭐⭐
+- [FRR SRv6 L3VPN Lab](service-provider/frr-srv6-mpls.md) ⭐⭐⭐
 
 ### 🔒 Security
 Firewall zones, microsegmentation, zero-trust patterns.
@@ -96,6 +98,7 @@ Test changes safely before pushing to production.
 ### 🔬 Research
 Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance — for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://www.netpilot.io/network-research-lab) hub.
 
+- [FRR EVPN/VXLAN Leaf-Spine Fabric](research/frr-evpn-vxlan-lab.md) ⭐⭐⭐
 - [Cross-Vendor EVPN Bug Reproduction](research/cross-vendor-evpn-bug-reproduction.md) ⭐⭐⭐
 - [Outage Forensics Playbook](research/outage-forensics-playbook.md) ⭐⭐⭐
 - [Multi-Vendor SONiC Integration Lab](research/multi-vendor-sonic-integration.md) ⭐⭐⭐
