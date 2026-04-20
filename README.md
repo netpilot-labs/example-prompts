@@ -93,6 +93,18 @@ Test changes safely before pushing to production.
 - [OTV-to-EVPN DCI Migration](change-validation/otv-to-evpn-migration.md) ⭐⭐⭐
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 
+### 🔬 Research
+Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance — for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://netpilot.io/network-research-lab) hub.
+
+- [Cross-Vendor EVPN Bug Reproduction](research/cross-vendor-evpn-bug-reproduction.md) ⭐⭐⭐
+- [Outage Forensics Playbook](research/outage-forensics-playbook.md) ⭐⭐⭐
+- [Multi-Vendor SONiC Integration Lab](research/multi-vendor-sonic-integration.md) ⭐⭐⭐
+- [Mesh Network Research Experiments](research/mesh-network-experiments.md) ⭐⭐⭐
+- [BGP Protocol Fuzzing with Scapy](research/bgp-fuzzing-scapy.md) ⭐⭐⭐
+- [BGP Convergence Research Experiment](research/bgp-convergence-experiment.md) ⭐⭐⭐
+- [Scale Testing 100-Node CLOS Fabric](research/scale-testing-100-node-fabric.md) ⭐⭐⭐
+- [Multi-Vendor RFC Conformance Lab](research/rfc-conformance-multi-vendor.md) ⭐⭐⭐
+
 ### 🛠️ Advanced
 Automation, integration, and complex scenarios.
 
@@ -120,6 +132,7 @@ Have a prompt that worked great? [Open a PR](https://github.com/netpilot-labs/ex
 | **NetPilot platform** | [app.netpilot.io](https://app.netpilot.io) |
 | **Documentation** | [netpilot.io/docs](https://netpilot.io/docs) |
 | **Blog tutorials** | [netpilot.io/blog](https://netpilot.io/blog) |
+| **Network Research Lab** | [netpilot.io/network-research-lab](https://netpilot.io/network-research-lab) |
 | **Community discussions** | [github.com/netpilot-labs/community](https://github.com/netpilot-labs/community) |
 | **Status** | [status.netpilot.io](https://status.netpilot.io) |
 
