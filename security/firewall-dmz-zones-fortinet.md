@@ -46,7 +46,7 @@ A key decision for most enterprises. Both use zones, but syntax, default behavio
 
 ## Related Resources
 
-- [NetPilot blog: Firewall Lab Palo Alto + Fortinet](https://netpilot.io/blog/firewall-lab-palo-alto-fortinet)
+- [NetPilot blog: Firewall Lab Palo Alto + Fortinet](https://www.netpilot.io/blog/firewall-lab-palo-alto-fortinet)
 - [Related: Firewall DMZ Zones with Palo Alto](firewall-dmz-zones-palo-alto.md)
 
 ## Try It

@@ -45,8 +45,8 @@ Vendor migrations are the #1 pain point for enterprises locked into expiring sup
 
 ## Related Resources
 
-- [NetPilot blog: Network Change Validation Sandbox](https://netpilot.io/blog/network-change-validation-sandbox)
-- [NetPilot Network Digital Twin](https://netpilot.io/network-digital-twin)
+- [NetPilot blog: Network Change Validation Sandbox](https://www.netpilot.io/blog/network-change-validation-sandbox)
+- [NetPilot Network Digital Twin](https://www.netpilot.io/network-digital-twin)
 - [Related: Firewall Rule Deployment Test](firewall-rule-deployment.md)
 
 ## Try It

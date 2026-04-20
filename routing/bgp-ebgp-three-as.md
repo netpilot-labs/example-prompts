@@ -41,8 +41,8 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Related Resources
 
-- [NetPilot blog: BGP Multi-Vendor Lab](https://netpilot.io/blog/bgp-multi-vendor-lab)
-- [NetPilot blog: BGP Basics Lab](https://netpilot.io/blog/bgp-basics-lab)
+- [NetPilot blog: BGP Multi-Vendor Lab](https://www.netpilot.io/blog/bgp-multi-vendor-lab)
+- [NetPilot blog: BGP Basics Lab](https://www.netpilot.io/blog/bgp-basics-lab)
 - [RFC 4271 — A Border Gateway Protocol 4 (BGP-4)](https://datatracker.ietf.org/doc/html/rfc4271)
 
 ## Try It

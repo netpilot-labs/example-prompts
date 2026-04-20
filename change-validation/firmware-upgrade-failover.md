@@ -45,7 +45,7 @@ Every firmware upgrade touches a redundant pair. The question is always the same
 
 ## Related Resources
 
-- [NetPilot Network Digital Twin](https://netpilot.io/network-digital-twin)
+- [NetPilot Network Digital Twin](https://www.netpilot.io/network-digital-twin)
 - [RFC 2281 — Cisco Hot Standby Router Protocol (HSRP)](https://datatracker.ietf.org/doc/html/rfc2281)
 - [Related: Vendor Migration Cisco to Arista](vendor-migration-cisco-to-arista.md)
 

@@ -45,7 +45,7 @@ Enterprise data center consolidation and cloud-region expansion both require rob
 
 ## Related Resources
 
-- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://netpilot.io/blog/evpn-vxlan-data-center-guide)
+- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://www.netpilot.io/blog/evpn-vxlan-data-center-guide)
 - [RFC 7432 — BGP MPLS-Based Ethernet VPN](https://datatracker.ietf.org/doc/html/rfc7432)
 - [Related: Leaf-Spine EVPN-VXLAN with Symmetric IRB](leaf-spine-evpn-vxlan-symmetric-irb.md)
 - [Related: Cisco + Arista EVPN-VXLAN Interop](../multi-vendor/cisco-arista-evpn-vxlan-interop.md)

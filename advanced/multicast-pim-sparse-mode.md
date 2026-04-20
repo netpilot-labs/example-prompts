@@ -43,7 +43,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 ## Related Resources
 
 - [RFC 7761 — Protocol Independent Multicast - Sparse Mode (PIM-SM)](https://datatracker.ietf.org/doc/html/rfc7761)
-- [NetPilot blog: Multicast GRE Tunnel Testing](https://netpilot.io/blog/multicast-gre-tunnel-testing)
+- [NetPilot blog: Multicast GRE Tunnel Testing](https://www.netpilot.io/blog/multicast-gre-tunnel-testing)
 - [Related: OSPF Multi-Area with ABR](../routing/ospf-multi-area-with-abr.md)
 
 ## Try It

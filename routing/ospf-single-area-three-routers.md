@@ -40,7 +40,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Related Resources
 
-- [NetPilot blog: OSPF Configuration Lab Guide](https://netpilot.io/blog/ospf-configuration-lab-guide)
+- [NetPilot blog: OSPF Configuration Lab Guide](https://www.netpilot.io/blog/ospf-configuration-lab-guide)
 - [Related: OSPF Multi-Area with ABR](ospf-multi-area-with-abr.md)
 - [RFC 2328 — OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 

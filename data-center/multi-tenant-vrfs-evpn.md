@@ -41,7 +41,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Related Resources
 
-- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://netpilot.io/blog/evpn-vxlan-data-center-guide)
+- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://www.netpilot.io/blog/evpn-vxlan-data-center-guide)
 - [Related: Leaf-Spine EVPN-VXLAN Symmetric IRB](leaf-spine-evpn-vxlan-symmetric-irb.md)
 - [Related: Cisco + Arista EVPN-VXLAN Interop](../multi-vendor/cisco-arista-evpn-vxlan-interop.md)
 - [RFC 7432 — BGP MPLS-Based Ethernet VPN](https://datatracker.ietf.org/doc/html/rfc7432)

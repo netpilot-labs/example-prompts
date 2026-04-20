@@ -47,7 +47,7 @@ Zero-trust is now a federal mandate (US Executive Order 14028) and an enterprise
 
 ## Related Resources
 
-- [NetPilot blog: Zero-Trust Microsegmentation Enterprise Guide](https://netpilot.io/blog/zero-trust-microsegmentation-guide)
+- [NetPilot blog: Zero-Trust Microsegmentation Enterprise Guide](https://www.netpilot.io/blog/zero-trust-microsegmentation-guide)
 - [NIST SP 800-207 — Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)
 - [Related: Firewall DMZ Zones with Palo Alto](firewall-dmz-zones-palo-alto.md)
 - [Related: Firewall Rule Deployment Test](../change-validation/firewall-rule-deployment.md)

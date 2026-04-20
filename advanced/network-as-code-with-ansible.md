@@ -62,8 +62,8 @@ Network automation in 2026 is non-negotiable for any team operating more than ~5
 
 ## Related Resources
 
-- [NetPilot blog: Python Network Automation Lab](https://netpilot.io/blog/python-network-automation-lab)
-- [NetPilot blog: AI Tools for Network Engineers](https://netpilot.io/blog/ai-tools-for-network-engineers)
+- [NetPilot blog: Python Network Automation Lab](https://www.netpilot.io/blog/python-network-automation-lab)
+- [NetPilot blog: AI Tools for Network Engineers](https://www.netpilot.io/blog/ai-tools-for-network-engineers)
 - [Ansible Network Collections Index](https://docs.ansible.com/ansible/latest/collections/index_module.html)
 - [Related: BGP eBGP Three-AS Multi-Vendor](../routing/bgp-ebgp-three-as.md)
 

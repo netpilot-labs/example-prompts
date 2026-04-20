@@ -49,7 +49,7 @@ The single biggest reason multi-vendor data centers fail at EVPN: every vendor i
 
 - [RFC 7432 — BGP MPLS-Based Ethernet VPN](https://datatracker.ietf.org/doc/html/rfc7432)
 - [RFC 8365 — Network Virtualization Overlay Solution Using EVPN](https://datatracker.ietf.org/doc/html/rfc8365)
-- [NetPilot blog: Multi-Vendor Labs with AI](https://netpilot.io/blog/multi-vendor-labs-with-ai)
+- [NetPilot blog: Multi-Vendor Labs with AI](https://www.netpilot.io/blog/multi-vendor-labs-with-ai)
 - [Related: Leaf-Spine EVPN-VXLAN with Symmetric IRB](../data-center/leaf-spine-evpn-vxlan-symmetric-irb.md)
 
 ## Try It

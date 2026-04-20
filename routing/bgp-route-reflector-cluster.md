@@ -42,7 +42,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 ## Related Resources
 
 - [RFC 4456 — BGP Route Reflection](https://datatracker.ietf.org/doc/html/rfc4456)
-- [NetPilot blog: BGP Multi-Vendor Lab](https://netpilot.io/blog/bgp-multi-vendor-lab)
+- [NetPilot blog: BGP Multi-Vendor Lab](https://www.netpilot.io/blog/bgp-multi-vendor-lab)
 
 ## Try It
 

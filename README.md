@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://netpilot.io">
-    <img src="https://netpilot.io/netpilot-logo.svg" alt="NetPilot" width="280" />
+  <a href="https://www.netpilot.io">
+    <img src="https://www.netpilot.io/netpilot-logo.svg" alt="NetPilot" width="280" />
   </a>
 </p>
 
@@ -10,9 +10,9 @@
 
 <p align="center">
   <a href="https://app.netpilot.io">Open NetPilot</a> &middot;
-  <a href="https://netpilot.io">Website</a> &middot;
-  <a href="https://netpilot.io/docs">Docs</a> &middot;
-  <a href="https://netpilot.io/blog">Blog</a>
+  <a href="https://www.netpilot.io">Website</a> &middot;
+  <a href="https://www.netpilot.io/docs">Docs</a> &middot;
+  <a href="https://www.netpilot.io/blog">Blog</a>
 </p>
 
 ---
@@ -94,7 +94,7 @@ Test changes safely before pushing to production.
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 
 ### 🔬 Research
-Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance — for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://netpilot.io/network-research-lab) hub.
+Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance — for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://www.netpilot.io/network-research-lab) hub.
 
 - [Cross-Vendor EVPN Bug Reproduction](research/cross-vendor-evpn-bug-reproduction.md) ⭐⭐⭐
 - [Outage Forensics Playbook](research/outage-forensics-playbook.md) ⭐⭐⭐
@@ -130,9 +130,9 @@ Have a prompt that worked great? [Open a PR](https://github.com/netpilot-labs/ex
 | | |
 |---|---|
 | **NetPilot platform** | [app.netpilot.io](https://app.netpilot.io) |
-| **Documentation** | [netpilot.io/docs](https://netpilot.io/docs) |
-| **Blog tutorials** | [netpilot.io/blog](https://netpilot.io/blog) |
-| **Network Research Lab** | [netpilot.io/network-research-lab](https://netpilot.io/network-research-lab) |
+| **Documentation** | [www.netpilot.io/docs](https://www.netpilot.io/docs) |
+| **Blog tutorials** | [www.netpilot.io/blog](https://www.netpilot.io/blog) |
+| **Network Research Lab** | [www.netpilot.io/network-research-lab](https://www.netpilot.io/network-research-lab) |
 | **Community discussions** | [github.com/netpilot-labs/community](https://github.com/netpilot-labs/community) |
 | **Status** | [status.netpilot.io](https://status.netpilot.io) |
 

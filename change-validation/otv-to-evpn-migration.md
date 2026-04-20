@@ -46,7 +46,7 @@ Cisco DCNM reaches end-of-support April 2026. Thousands of enterprises running O
 
 ## Related Resources
 
-- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://netpilot.io/blog/evpn-vxlan-data-center-guide)
+- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://www.netpilot.io/blog/evpn-vxlan-data-center-guide)
 - [Related: EVPN-VXLAN Multi-Site DCI](../data-center/evpn-vxlan-multi-site-dci.md)
 - [Related: Vendor Migration Cisco to Arista](vendor-migration-cisco-to-arista.md)
 - [Related: Data Center VLAN Migration](data-center-vlan-migration.md)

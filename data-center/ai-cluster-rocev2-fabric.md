@@ -46,8 +46,8 @@ AI inference and training workloads have made lossless Ethernet a hard requireme
 
 ## Related Resources
 
-- [NetPilot blog: RoCEv2 vs InfiniBand — AI Cluster Networking Compared](https://netpilot.io/blog/ai-cluster-networking-rocev2)
-- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://netpilot.io/blog/evpn-vxlan-data-center-guide)
+- [NetPilot blog: RoCEv2 vs InfiniBand — AI Cluster Networking Compared](https://www.netpilot.io/blog/ai-cluster-networking-rocev2)
+- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://www.netpilot.io/blog/evpn-vxlan-data-center-guide)
 - [RFC 8087 — The Benefits of Using Explicit Congestion Notification (ECN)](https://datatracker.ietf.org/doc/html/rfc8087)
 - [IEEE 802.1Qbb — Priority-based Flow Control](https://standards.ieee.org/standard/802_1Qbb-2011.html)
 

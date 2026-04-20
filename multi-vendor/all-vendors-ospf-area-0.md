@@ -49,7 +49,7 @@ Vendor marketing claims "OSPF is standard" — but real interop testing exposes 
 
 ## Related Resources
 
-- [NetPilot blog: OSPF Multi-Vendor Lab](https://netpilot.io/blog/ospf-multi-vendor-lab)
+- [NetPilot blog: OSPF Multi-Vendor Lab](https://www.netpilot.io/blog/ospf-multi-vendor-lab)
 - [RFC 2328 — OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 - [Related: OSPF Multi-Area with ABR](../routing/ospf-multi-area-with-abr.md)
 

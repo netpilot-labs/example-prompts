@@ -44,7 +44,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Related Resources
 
-- [NetPilot blog: Firewall Lab Palo Alto + Fortinet](https://netpilot.io/blog/firewall-lab-palo-alto-fortinet)
+- [NetPilot blog: Firewall Lab Palo Alto + Fortinet](https://www.netpilot.io/blog/firewall-lab-palo-alto-fortinet)
 - [Related: Multi-Vendor Firewall Comparison](#) (coming soon)
 - [Palo Alto Security Zones Best Practices](https://docs.paloaltonetworks.com/)
 

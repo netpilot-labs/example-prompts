@@ -45,7 +45,7 @@ BGP is the internet's routing protocol, and policy mistakes have caused famous o
 
 ## Related Resources
 
-- [NetPilot Network Digital Twin](https://netpilot.io/network-digital-twin)
+- [NetPilot Network Digital Twin](https://www.netpilot.io/network-digital-twin)
 - [Related: Firewall Rule Deployment Test](firewall-rule-deployment.md)
 - [Related: eBGP Three-AS Multi-Vendor](../routing/bgp-ebgp-three-as.md)
 

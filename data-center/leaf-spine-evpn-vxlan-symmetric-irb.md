@@ -43,7 +43,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Related Resources
 
-- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://netpilot.io/blog/evpn-vxlan-data-center-guide)
+- [NetPilot blog: EVPN-VXLAN Data Center Fabric Guide](https://www.netpilot.io/blog/evpn-vxlan-data-center-guide)
 - [RFC 7432 — BGP MPLS-Based Ethernet VPN](https://datatracker.ietf.org/doc/html/rfc7432)
 - [RFC 8365 — Network Virtualization Overlay Solution Using EVPN](https://datatracker.ietf.org/doc/html/rfc8365)
 - [Arista EVPN-VXLAN Design Guide](https://www.arista.com/en/solutions/data-center)
