@@ -96,6 +96,11 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [OTV-to-EVPN DCI Migration](change-validation/otv-to-evpn-migration.md) ⭐⭐⭐
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 
+### 🎯 POC / Sales Engineering
+Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Vibe labbing register — describe the prospect's network in plain English, ship them a shareable URL.
+
+- [**Customer-Matched POC Demo Lab** (mirror the prospect's network)](poc/customer-matched-demo-lab.md) ⭐⭐
+
 ### 🔬 Research
 Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance — for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://www.netpilot.io/network-research-lab) hub.
 
