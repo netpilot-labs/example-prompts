@@ -85,8 +85,9 @@ Where vendors must talk to each other — NetPilot's superpower.
 - [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐
 
 ### ✅ Change Validation
-Test changes safely before pushing to production.
+Test changes safely before pushing to production. Start with the **workflow prompt** — it's the overarching pattern (mirror → snapshot → apply → diff) that every specific change type below applies.
 
+- [**Change Validation Workflow** (mirror, snapshot, apply, diff)](change-validation/change-validation-workflow.md) ⭐⭐⭐
 - [Firewall Rule Deployment Test](change-validation/firewall-rule-deployment.md) ⭐⭐
 - [Firmware Upgrade Failover Test](change-validation/firmware-upgrade-failover.md) ⭐⭐
 - [BGP Policy Change Validation](change-validation/bgp-policy-change.md) ⭐⭐⭐
