@@ -120,6 +120,7 @@ Automation, integration, and complex scenarios.
 - [QoS End-to-End Marking and Queuing](advanced/qos-end-to-end-marking.md) ⭐⭐⭐
 - [Multicast PIM Sparse Mode](advanced/multicast-pim-sparse-mode.md) ⭐⭐⭐
 - [Network Telemetry with gNMI Streaming](advanced/network-telemetry-gnmi.md) ⭐⭐⭐
+- [NETCONF, gNMI & OpenConfig — Programmable Multi-Vendor](advanced/netconf-gnmi-openconfig.md) ⭐⭐⭐
 - [Network-as-Code with Ansible](advanced/network-as-code-with-ansible.md) ⭐⭐⭐
 
 ## Difficulty Levels
