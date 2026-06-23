@@ -12,7 +12,9 @@
   <a href="https://app.netpilot.io">Open NetPilot</a> &middot;
   <a href="https://www.netpilot.io">Website</a> &middot;
   <a href="https://www.netpilot.io/docs">Docs</a> &middot;
-  <a href="https://www.netpilot.io/blog">Blog</a>
+  <a href="https://www.netpilot.io/blog">Blog</a> &middot;
+  <a href="https://www.linkedin.com/company/netpilot">LinkedIn</a> &middot;
+  <a href="https://x.com/netpilotio">X</a>
 </p>
 
 ---
@@ -144,6 +146,7 @@ Have a prompt that worked great? [Open a PR](https://github.com/netpilot-labs/ex
 | **Blog tutorials** | [www.netpilot.io/blog](https://www.netpilot.io/blog) |
 | **Network Research Lab** | [www.netpilot.io/network-research-lab](https://www.netpilot.io/network-research-lab) |
 | **Community discussions** | [github.com/netpilot-labs/community](https://github.com/netpilot-labs/community) |
+| **LinkedIn** | [Follow NetPilot](https://www.linkedin.com/company/netpilot) — new prompts, lab breakdowns, product updates |
 | **Status** | [status.netpilot.io](https://status.netpilot.io) |
 
 ## License
