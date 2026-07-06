@@ -98,6 +98,7 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [Data Center VLAN Migration](change-validation/data-center-vlan-migration.md) ⭐⭐⭐
 - [OTV-to-EVPN DCI Migration](change-validation/otv-to-evpn-migration.md) ⭐⭐⭐
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
+- [NRFU Acceptance Test Plan — Generated, Executed, Signed Off](change-validation/nrfu-acceptance-test-plan.md) ⭐⭐⭐
 
 ### 🎯 POC / Sales Engineering
 Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Vibe labbing register — describe the prospect's network in plain English, ship them a shareable URL.
@@ -120,6 +121,7 @@ Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance
 ### 🛠️ Advanced
 Automation, integration, and complex scenarios.
 
+- [Traffic Generation & Impairment Testing — iperf3 Over a Degraded WAN](advanced/traffic-generation-impairment-testing.md) ⭐⭐
 - [QoS End-to-End Marking and Queuing](advanced/qos-end-to-end-marking.md) ⭐⭐⭐
 - [Multicast PIM Sparse Mode](advanced/multicast-pim-sparse-mode.md) ⭐⭐⭐
 - [Network Telemetry with gNMI Streaming](advanced/network-telemetry-gnmi.md) ⭐⭐⭐
