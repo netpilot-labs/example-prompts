@@ -8,7 +8,7 @@ Point the agent at your NetBox, name a site, and get a runnable twin of what's a
 
 Copy this into [NetPilot](https://app.netpilot.io) (with your NetBox connector enabled):
 
-> Using my NetBox connector, pull site DC-East: devices, device roles, interfaces, cabling, and the prefixes assigned to each interface. Build a matching lab — use Arista cEOS for the leaf switches, Cisco IOL for the core routers, and FRR for anything NetBox lists as a Linux router — with the same hostnames, interface names, and IP addressing NetBox records. Bring up the IGP exactly as deployed (OSPF area 0 on the core, according to the config contexts). Then rehearse this change: move leaf DC-E-LEAF-03's uplinks from CORE-1 to CORE-2, and show me a before/after diff of the routing table and OSPF adjacencies so I can prove the failover path works before we touch production.
+> Using my NetBox connector, pull site DC-East: devices, device roles, interfaces, cabling, the IP addresses assigned to each interface, and the site's prefixes. Build a matching lab — use Arista cEOS for the leaf switches, Cisco IOL for the core routers, and FRR for anything NetBox lists as a Linux router — with the same hostnames, interface names, and interface IP addresses NetBox records. Bring up the IGP exactly as deployed (OSPF area 0 on the core, according to the config contexts). Then rehearse this change: move leaf DC-E-LEAF-03's uplinks from CORE-1 to CORE-2, and show me a before/after diff of the routing table and OSPF adjacencies so I can prove the failover path works before we touch production.
 
 ## What You'll Build
 

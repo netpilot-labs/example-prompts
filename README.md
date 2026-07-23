@@ -100,7 +100,7 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 - [NRFU Acceptance Test Plan — Generated, Executed, Signed Off](change-validation/nrfu-acceptance-test-plan.md) ⭐⭐⭐
 - [NetBox Site → Digital Twin — Rehearse a Change from Your Source of Truth](change-validation/netbox-site-twin-rehearsal.md) ⭐⭐⭐
-- [Source-of-Truth Drift Detection — NetBox/Nautobot vs Live State](change-validation/sot-drift-detection.md) ⭐⭐⭐
+- [Source-of-Truth Drift Detection — Nautobot vs Live State (NetBox variant inside)](change-validation/sot-drift-detection.md) ⭐⭐⭐
 
 ### 🎯 POC / Sales Engineering
 Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Vibe labbing register — describe the prospect's network in plain English, ship them a shareable URL.

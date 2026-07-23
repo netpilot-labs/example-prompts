@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io) (with a NetBox or Nautobot co
 
 > Audit my NetBox site DC-East using the connector: list every device with its role, platform, and rack position; flag interfaces that have no description or no IP assigned; find the prefixes in this site that are more than 80% utilized and suggest which free prefixes could take the overflow; and summarize what changed in this site's records over the last 14 days from the changelog. Present it as a one-page site health report I can paste into a change-advisory ticket.
 
+*Running Nautobot instead of NetBox? Swap "site" for "location" in the prompt — Nautobot 2.x models sites as Locations.*
+
 ## What You'll Build
 
 - A one-page site health report straight from your own records — no export, no spreadsheet
