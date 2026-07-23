@@ -123,7 +123,7 @@ Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance
 ### 🛠️ Advanced
 Automation, integration, and complex scenarios.
 
-- [Source-of-Truth Queries — What to Ask an AI Connected to NetBox/Nautobot](advanced/netbox-nautobot-agent-queries.md) ⭐
+- [Source-of-Truth Queries — What to Ask an AI Connected to NetBox/Nautobot](advanced/netbox-nautobot-agent-queries.md) ⭐ *(records-only — no lab deployed by default; labs come from the follow-up prompts)*
 - [Traffic Generation & Impairment Testing — iperf3 Over a Degraded WAN](advanced/traffic-generation-impairment-testing.md) ⭐⭐
 - [QoS End-to-End Marking and Queuing](advanced/qos-end-to-end-marking.md) ⭐⭐⭐
 - [Multicast PIM Sparse Mode](advanced/multicast-pim-sparse-mode.md) ⭐⭐⭐
