@@ -35,7 +35,7 @@ Copy this into [NetPilot](https://app.netpilot.io) (with Nautobot + Nornir conne
 ## Variations to Try
 
 - "Scope the drift check to interfaces tagged `uplink` only"
-- NetBox shop? Pull intended state from your NetBox connector instead ("Using my NetBox connector, pull intended state for site HQ…"). Note the live-check leg still requires the Nornir connector, which brokers device credentials from a Nautobot — without one, run the SoT-vs-lab comparison instead (build the twin from NetBox and diff against it, skipping live checks)
+- NetBox shop? Pull intended state from your NetBox connector instead ("Using my NetBox connector, pull intended state for site HQ…"). Note the live-check leg still requires the Nornir connector, which brokers device credentials from a Nautobot — without one, true drift detection against the live network isn't possible — you can still audit the records themselves (stale entries, missing data) and rehearse the correcting change on a lab built from them, but don't call a NetBox-vs-NetBox-built-lab diff "drift detection"
 - "Check BGP: intended neighbors from Nautobot vs show ip bgp summary from the live core"
 - "Run the same drift report weekly and show me only what changed since last run"
 - "For bucket 1 (stale records), draft the Nautobot updates for my review — but do not apply them"
