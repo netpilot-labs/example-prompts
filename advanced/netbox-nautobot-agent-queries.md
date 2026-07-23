@@ -8,9 +8,9 @@ Once a read-only connector is enabled, your source of truth answers in plain Eng
 
 Copy this into [NetPilot](https://app.netpilot.io) (with a NetBox or Nautobot connector enabled):
 
-> Audit my NetBox site DC-East using the connector: list every device with its role, platform, and rack position; flag interfaces that have no description or no IP assigned; find the prefixes in this site that are more than 80% utilized and suggest which free prefixes could take the overflow; and summarize what changed in this site's records over the last 14 days from the changelog. Present it as a one-page site health report I can paste into a change-advisory ticket.
+> Audit my NetBox site DC-East using the connector: list every device with its role, platform, and rack position; flag interfaces with no description, and routed (non-switchport) interfaces with no IP assigned; find the prefixes in this site that are more than 80% utilized and suggest which free prefixes could take the overflow; and summarize what changed in this site's records over the last 14 days from the changelog. Present it as a one-page site health report I can paste into a change-advisory ticket.
 
-*Running Nautobot instead of NetBox? Swap "site" for "location" in the prompt — Nautobot 2.x models sites as Locations.*
+*Swap DC-East (and the rack/prefix names in the variations) for your own before running. Running Nautobot instead of NetBox? Say "my Nautobot location DC-East" — swap both the tool name and site → location, since Nautobot 2.x models sites as Locations.*
 
 ## What You'll Build
 
