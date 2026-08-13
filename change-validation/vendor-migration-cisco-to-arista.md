@@ -47,6 +47,8 @@ Vendor migrations are the #1 pain point for enterprises locked into expiring sup
 
 - [NetPilot blog: Network Change Validation Sandbox](https://www.netpilot.io/blog/network-change-validation-sandbox)
 - [NetPilot Network Digital Twin](https://www.netpilot.io/network-digital-twin)
+- [Related: Vendor Migration Rehearsal](vendor-migration-rehearsal.md) — the full translate → diff → failover → go/no-go workflow
+- [Related: Cisco to Aruba AOS-CX Migration](cisco-to-aruba-aos-cx-migration.md) — the L2/STP campus-core variant
 - [Related: Firewall Rule Deployment Test](firewall-rule-deployment.md)
 
 ## Try It
