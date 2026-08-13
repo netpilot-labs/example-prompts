@@ -8,16 +8,16 @@ Rehearse a Cisco-campus-to-Aruba-AOS-CX core refresh end to end: translate the I
 
 Copy this into [NetPilot](https://app.netpilot.io):
 
-> Build a Cisco-to-Aruba migration rehearsal lab. Current state: a Cisco core pair (CORE-A, CORE-B) running HSRP for VLANs 10, 20, and 30 (virtual IPs 10.1.10.1, 10.1.20.1, 10.1.30.1, CORE-A active with priority 110 and preempt), with two access switches uplinked on port-channels and RPVST+ everywhere. Target state: the same topology on Aruba AOS-CX — a VSX pair with active-gateway for the three VLANs, LAGs to the access switches, and MSTP with VLANs 10 and 20 in instance 1 and VLAN 30 in instance 2. Here are my sanitized IOS configs [paste them]: translate them to AOS-CX and flag every line that doesn't map cleanly — switchport to vlan access/trunk, port-channel to lag with lacp, HSRP to active-gateway, GigabitEthernet1/0/1-style names to 1/1/1, dotted masks to CIDR, and AOS-CX's interfaces-default-to-shutdown gotcha. Deploy both sides, then validate: (1) diff the routing tables and OSPF neighbor state between the old and new cores, flagging any prefix, next-hop, or metric difference beyond interface renames; (2) verify spanning tree — confirm the VSX pair is root for MSTP instances 1 and 2 and list any port that newly went blocking; (3) start a continuous ping from an access-side host to each VLAN gateway, then fail the VSX primary, restore it, drop one LAG member, and restore it — report seconds of loss for each event. Finish with a go/no-go report for the cutover: every check pass/fail with command output as evidence, plus the translated lines that need human review.
+> Build a Cisco-to-Aruba migration rehearsal lab. Current state: a Cisco core pair (CORE-A, CORE-B) running HSRP for VLANs 10, 20, and 30 (virtual IPs 10.1.10.1, 10.1.20.1, 10.1.30.1, CORE-A active with priority 110 and preempt), with two access switches uplinked on port-channels and RPVST+ everywhere. Target state: the same topology on Aruba AOS-CX — a VSX pair with active-gateway for the three VLANs, LAGs to the access switches, and MSTP with VLANs 10 and 20 in instance 1 and VLAN 30 in instance 2. Generate the full current-state IOS configs for this design first and show them to me — or, if I have pasted my sanitized production configs below, use those as the source instead. Then translate them to AOS-CX and flag every line that doesn't map cleanly — switchport to vlan access/trunk, port-channel to lag with lacp, HSRP to active-gateway, GigabitEthernet1/0/1-style names to 1/1/1, dotted masks to CIDR, and AOS-CX's interfaces-default-to-shutdown gotcha. Deploy both sides with a Linux host in each of the three VLANs on the access layer, then validate: (1) diff the routing tables and OSPF neighbor state between the old and new cores, flagging any prefix, next-hop, or metric difference beyond interface renames; (2) verify spanning tree — confirm the VSX pair is root for MSTP instances 1 and 2 and list any port that newly went blocking; (3) start simultaneous continuous pings from the host in each VLAN to its own gateway, then fail the VSX primary, restore it, drop one LAG member, and restore it — report seconds of loss per VLAN for each event so a VLAN-specific active-gateway failure can't hide behind the others. Finish with a go/no-go report for the cutover: every check pass/fail with command output as evidence, plus the translated lines that need human review.
 
 ## What You'll Build
 
 - Current side: a Cisco core pair (HSRP on VLANs 10/20/30, RPVST+) with two port-channeled access switches
 - Target side: an Aruba AOS-CX VSX pair with active-gateway, LAGs to access, and a two-instance MSTP design
-- A line-by-line IOS-to-AOS-CX translation with every non-clean mapping flagged
+- A line-by-line IOS-to-AOS-CX translation with every non-clean mapping flagged (generated current-state configs, or your own sanitized ones)
 - A routing-table and OSPF-neighbor diff between old and new cores
 - STP root verification for both MSTP instances, with newly blocking ports listed
-- A VSX failover battery under continuous ping (primary failure + LAG member failure), measured in seconds of loss
+- A VSX failover battery (primary failure + LAG member failure) under simultaneous continuous pings from a host in each VLAN, measured in seconds of loss per VLAN
 - A go/no-go cutover report with command-level evidence
 
 ## Concepts Demonstrated
@@ -32,7 +32,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 - Aruba AOS-CX (VSX core pair — via Signature & Enterprise custom vendor support, see the availability note above)
 - Cisco (current-side core and access, per your environment)
-- Linux (access-side test host for continuous ping)
+- Linux (one access-side test host per VLAN for continuous ping)
 
 ## Difficulty
 

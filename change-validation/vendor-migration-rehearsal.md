@@ -6,13 +6,13 @@ Run a full vendor-swap rehearsal before cutover night: translate the configs, de
 
 Copy this into [NetPilot](https://app.netpilot.io):
 
-> Run a vendor-migration rehearsal for a core refresh. Current state: two Cisco IOL core routers (CUR-CORE1, CUR-CORE2) sharing HSRP group 10 (virtual IP 10.1.10.1, CUR-CORE1 active with priority 110 and preempt) on the user segment 10.1.10.0/24, OSPF area 0 between them, and eBGP from each core to an upstream WAN router (FRR, AS 65100) advertising 10.1.0.0/16. Target state: the same design on two Arista cEOS devices (TGT-CORE1, TGT-CORE2) with VRRP group 10 replacing HSRP. Translate the Cisco configs to EOS first and flag every line that doesn't map one-to-one — HSRP-to-VRRP semantics, interface names, timer and preempt defaults — then deploy both topologies in parallel against the same upstream, with a Linux host on each user segment. Diff-validate: routing tables and OSPF neighbor state must match between the current and target pairs, and AS 65100 must see identical BGP advertisements from both. Then failover-test the target with a continuous ping running from its host to 10.1.10.1 and to the upstream loopback: fail TGT-CORE1, restore it, then drop TGT-CORE1's uplink and restore it — report seconds of loss per event, and run the same two failures on the current pair as the baseline to beat. Finish with a go/no-go report: every check pass/fail with command output as evidence, plus the list of translated lines that need human review before cutover.
+> Run a vendor-migration rehearsal for a core refresh. Current state: two Cisco IOL core routers (CUR-CORE1, CUR-CORE2) sharing HSRP group 10 (virtual IP 10.1.10.1, CUR-CORE1 active with priority 110, preempt, and uplink interface tracking with decrement 20) on the user segment 10.1.10.0/24, OSPF area 0 between them, and eBGP from each core to its own upstream observer router (FRR, AS 65100) advertising 10.1.0.0/16. Target state: the same design — same addressing, same tracking behavior — on two Arista cEOS devices (TGT-CORE1, TGT-CORE2) with VRRP group 10 replacing HSRP, as a fully separate topology with its own identically configured FRR observer so the two data planes never share a return path. Translate the Cisco configs to EOS first and flag every line that doesn't map one-to-one — HSRP-to-VRRP semantics, interface names, timer, preempt, and tracking defaults — then deploy both topologies in parallel, with a Linux host on each side's user segment. Diff-validate: routing tables and OSPF neighbor state must match between the current and target pairs, and the two observers must have received identical BGP advertisements from their respective sides. Then failover-test the target with a continuous ping running from its host to 10.1.10.1 and to its observer's loopback: fail TGT-CORE1, restore it, then drop TGT-CORE1's uplink (tracking should demote it) and restore it — report seconds of loss per event, and run the same two failures on the current pair as the baseline to beat. Finish with a go/no-go report: every check pass/fail with command output as evidence, plus the list of translated lines that need human review before cutover.
 
 ## What You'll Build
 
-- Current side: 2 Cisco IOL cores in HSRP active/standby, OSPF area 0, eBGP upstream
+- Current side: 2 Cisco IOL cores in HSRP active/standby with uplink tracking, OSPF area 0, eBGP upstream
 - Target side: 2 Arista cEOS cores with the translated config and VRRP
-- Shared FRR upstream (AS 65100) as the neutral observer, plus a Linux host per segment
+- Twin FRR observers (AS 65100, identically configured, one per side — isolated data planes), plus a Linux host per side
 - A config translation with every non-1:1 line flagged for review
 - A state diff (routing tables, OSPF neighbors, BGP advertisements) between old and new
 - A failover battery under continuous ping, measured on both sides
@@ -21,8 +21,8 @@ Copy this into [NetPilot](https://app.netpilot.io):
 ## Concepts Demonstrated
 
 - The five-step rehearsal: translate → deploy in parallel → diff state → failover under traffic → go/no-go
-- Translation review as a first-class artifact — syntax that converts cleanly vs semantics that don't (timers, preempt, tiebreakers)
-- Diffing what the *upstream* sees, not just what your devices report
+- Translation review as a first-class artifact — syntax that converts cleanly vs semantics that don't (timers, preempt, interface tracking, tiebreakers)
+- Diffing what the *upstream* sees, not just what your devices report — with an observer per side so the parallel data planes stay isolated
 - Measuring failover with in-flight probes and a current-side baseline, so "the new pair is fine" is a number, not a feeling
 - The same rehearsal pattern applies to any swap: vendor refresh, OS upgrade, or generational replacement
 
@@ -30,7 +30,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 - Cisco IOL (current core pair)
 - Arista cEOS (target core pair)
-- FRR (upstream observer)
+- FRR (2 upstream observers, one per side)
 - Linux (test hosts for continuous ping)
 
 ## Difficulty
