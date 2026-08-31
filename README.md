@@ -99,7 +99,7 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [OTV-to-EVPN DCI Migration](change-validation/otv-to-evpn-migration.md) ⭐⭐⭐
 - [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 - [Vendor Migration Rehearsal — Translate, Diff-Validate, Failover-Test, Go/No-Go](change-validation/vendor-migration-rehearsal.md) ⭐⭐⭐
-- [Cisco to Aruba AOS-CX Migration — VSX Core Rehearsal (Signature & Enterprise)](change-validation/cisco-to-aruba-aos-cx-migration.md) ⭐⭐⭐
+- [Cisco to Aruba AOS-CX Migration — VSX Core Rehearsal (Team plan, BYOI)](change-validation/cisco-to-aruba-aos-cx-migration.md) ⭐⭐⭐
 - [NRFU Acceptance Test Plan — Generated, Executed, Signed Off](change-validation/nrfu-acceptance-test-plan.md) ⭐⭐⭐
 - [NetBox Site → Digital Twin — Rehearse a Change from Your Source of Truth](change-validation/netbox-site-twin-rehearsal.md) ⭐⭐⭐
 - [Source-of-Truth Drift Detection — Nautobot vs Live State (NetBox variant inside)](change-validation/sot-drift-detection.md) ⭐⭐⭐
