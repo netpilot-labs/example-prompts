@@ -2,7 +2,7 @@
 
 Rehearse a Cisco-campus-to-Aruba-AOS-CX core refresh end to end: translate the IOS configs, verify the MSTP root landed where the design says, and fail the VSX primary with a continuous ping running.
 
-**Availability:** Aruba AOS-CX runs on NetPilot through **Signature & Enterprise custom vendor support** — NetPilot builds the AOS-CX Switch Simulator into a dedicated environment for you. HPE distributes the simulator image at no charge through the [HPE Networking Support Portal](https://networkingsupport.hpe.com/) (formerly the Aruba Support Portal; free account required); NetPilot never distributes vendor images. On self-serve tiers, the translation step needs no Aruba image at all, and you can rehearse the full deploy/validate flow with a stand-in NOS — see [Variations](#variations-to-try).
+**Availability:** Aruba AOS-CX runs on NetPilot's **Team plan (standard seats) as a bring-your-own-image NOS** — you upload the AOS-CX Switch Simulator under your own account and the agent deploys it like any other node. HPE distributes the simulator image at no charge through the [HPE Networking Support Portal](https://networkingsupport.hpe.com/) (formerly the Aruba Support Portal; free account required); NetPilot never distributes vendor images. White-glove custom vendor builds remain a Signature engagement. On individual tiers, the translation step needs no Aruba image at all, and you can rehearse the full deploy/validate flow with a stand-in NOS — see [Variations](#variations-to-try).
 
 ## The Prompt
 
@@ -30,7 +30,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Vendors Used
 
-- Aruba AOS-CX (VSX core pair — via Signature & Enterprise custom vendor support, see the availability note above)
+- Aruba AOS-CX (VSX core pair — bring your own simulator image on Team plan standard seats, see the availability note above)
 - Cisco (current-side core, access, and WAN edge, per your environment)
 - Linux (one test host per VLAN per access switch for continuous ping)
 
