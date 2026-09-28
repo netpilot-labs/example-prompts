@@ -1,6 +1,6 @@
 # Source-of-Truth Drift Detection: Nautobot Records vs Live State
 
-Your Nautobot says one thing; the network runs another. Have the agent diff intended state against live show-command output, read-only on both sides, and hand you the delta.
+Your Nautobot says one thing. The network runs another. Have the agent diff intended state against live show-command output, read-only on both sides, and hand you the delta.
 
 > **Requires NetPilot's Nautobot integration** (and the Nornir integration for live checks), both read-only and custom-built for your workflow by NetPilot's team. See [NetPilot Integrations](https://www.netpilot.io/integrations).
 
@@ -8,7 +8,7 @@ Your Nautobot says one thing; the network runs another. Have the agent diff inte
 
 Copy this into [NetPilot](https://app.netpilot.io/sign-in) (with the Nautobot and Nornir integrations in place):
 
-> Using my Nautobot integration, pull the intended state for the devices in location HQ: interfaces with their descriptions, IP addresses, VLANs, and the rendered config context for each device. Then, using the Nornir integration, run read-only show commands against the same devices, the platform-appropriate equivalents of interface/IP status, VLAN summary, and interface descriptions (for example show ip interface brief on Cisco IOS; pick each device's syntax from the platform recorded in Nautobot). Diff intended vs actual per device and give me a drift report in three buckets: (1) records that are stale in Nautobot, (2) live config that violates the intended state, (3) matches. For the violations, build a small lab replicating the affected devices so I can rehearse the correcting change before pushing anything to production.
+> Using my Nautobot integration, pull the intended state for the devices in location HQ: interfaces with their descriptions, IP addresses, VLANs, and the rendered config context for each device. Then, using the Nornir integration, run read-only show commands against the same devices, the platform-appropriate equivalents of interface/IP status, VLAN summary, and interface descriptions (for example show ip interface brief on Cisco IOS, picking each device's syntax from the platform recorded in Nautobot). Diff intended vs actual per device and give me a drift report in three buckets: (1) records that are stale in Nautobot, (2) live config that violates the intended state, (3) matches. For the violations, build a small lab replicating the affected devices so I can rehearse the correcting change before pushing anything to production.
 
 ## What You'll Build
 

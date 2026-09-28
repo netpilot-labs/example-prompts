@@ -8,7 +8,7 @@ Once NetPilot's read-only integration with your source of truth is in place, it 
 
 Copy this into [NetPilot](https://app.netpilot.io/sign-in) (with a NetBox or Nautobot integration in place):
 
-> Audit my NetBox site DC-East using the integration: list every device with its role, platform, and rack position; flag interfaces with no description, and routed (non-switchport) interfaces with no IP assigned; find the prefixes in this site that are more than 80% utilized and suggest which free prefixes could take the overflow; and summarize what changed in this site's records over the last 14 days from the changelog. Present it as a one-page site health report I can paste into a change-advisory ticket.
+> Audit my NetBox site DC-East using the integration: list every device with its role, platform, and rack position. Flag interfaces with no description, and routed (non-switchport) interfaces with no IP assigned. Find the prefixes in this site that are more than 80% utilized and suggest which free prefixes could take the overflow. Then summarize what changed in this site's records over the last 14 days from the changelog. Present it as a one-page site health report I can paste into a change-advisory ticket.
 
 *Swap DC-East (and the rack/prefix names in the variations) for your own before running. Running Nautobot instead of NetBox? Say "my Nautobot location DC-East", swap both the tool name and site → location, since Nautobot 2.x models sites as Locations.*
 
@@ -27,7 +27,7 @@ Copy this into [NetPilot](https://app.netpilot.io/sign-in) (with a NetBox or Nau
 
 ## Vendors Used
 
-- None deployed by default: this is a records-only prompt; labs come from the follow-ups
+- None deployed by default: this is a records-only prompt, and labs come from the follow-ups
 
 ## Difficulty
 
