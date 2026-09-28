@@ -10,7 +10,7 @@ Copy this into your own agent (Claude, Cursor, or an in-house agent) once it is 
 
 > Using the NetPilot tools, build a three-node lab: an Arista cEOS spine, a Cisco IOL leaf and an FRR router, with point-to-point /31 links, eBGP between all three (AS 65001, 65002 and 65003) and a loopback per device advertised into BGP. Deploy it, wait for the BGP sessions to establish, then run the platform-appropriate BGP summary on each device and return the output. Flag any session that is not Established. Leave the lab running so I can SSH in, and tell me the hostnames and management addresses.
 
-*Swap the vendors, AS numbers and the validation step for your own. The agent on your side keeps the conversation; NetPilot does the building.*
+*Swap the vendors, AS numbers and the validation step for your own. The agent on your side keeps the conversation, and NetPilot does the building.*
 
 ## What You'll Build
 
@@ -21,7 +21,7 @@ Copy this into your own agent (Claude, Cursor, or an in-house agent) once it is 
 ## Concepts Demonstrated
 
 - Bring your own agent: your Claude, Cursor or in-house agent calls NetPilot's MCP tools to design, deploy and validate
-- MCP-connectable both ways: this is the inbound direction; NetPilot's own agent connecting to your stack is the outbound one
+- MCP-connectable both ways: this is the inbound direction, and NetPilot's own agent connecting to your stack is the outbound one
 - The engineer verifies: every result is reproducible on real NOS CLIs over SSH
 
 ## Vendors Used
@@ -43,7 +43,7 @@ Copy this into your own agent (Claude, Cursor, or an in-house agent) once it is 
 
 ## Why This Matters
 
-Most MCP servers in networking are connectors into one tool. NetPilot's is a lab platform your agent can drive: it builds real multi-vendor networks on demand, validates them, and hands the evidence back to the agent that asked. Custom-built for your workflow; NetBox, Nautobot and Nornir are a few examples of what NetPilot connects to in the other direction.
+Most MCP servers in networking are connectors into one tool. NetPilot's is a lab platform your agent can drive: it builds real multi-vendor networks on demand, validates them, and hands the evidence back to the agent that asked. Custom-built for your workflow. NetBox, Nautobot and Nornir are a few examples of what NetPilot connects to in the other direction.
 
 ## Related Resources
 
