@@ -47,7 +47,7 @@ Copy this into [NetPilot](https://app.netpilot.io), or into Claude with the NetP
 ## Related Resources
 
 - [OSPF Multi-Area with ABR](ospf-multi-area-with-abr.md): the five-router version with LSA types in focus
-- [OSPF Single Area — Three Router Lab](ospf-single-area-three-routers.md): the single-area starting point
+- [OSPF Single Area, Three Router Lab](ospf-single-area-three-routers.md): the single-area starting point
 - [NetPilot blog: OSPF Configuration Lab Guide](https://www.netpilot.io/blog/ospf-configuration-lab-guide)
 - [Connect NetPilot in Claude, ChatGPT or Meta Muse](https://www.netpilot.io/docs/agent-route)
 - [RFC 2328, OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
