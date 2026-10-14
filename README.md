@@ -40,6 +40,7 @@ Foundational and advanced routing protocol labs.
 
 - [OSPF Single Area — Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐
+- [OSPF Multi-Area on Cisco IOS: Four Routers, Three Areas](routing/ospf-multi-area-cisco-ios.md) ⭐⭐
 - [OSPF ↔ BGP Redistribution](routing/ospf-bgp-redistribution.md) ⭐⭐
 - [Open Source Routing Lab — FRRouting BGP + OSPF](routing/frr-open-source-routing-lab.md) ⭐⭐
 - [eBGP Three-AS Multi-Vendor](routing/bgp-ebgp-three-as.md) ⭐⭐
