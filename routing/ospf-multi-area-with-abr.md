@@ -1,6 +1,6 @@
 # OSPF Multi-Area with Area Border Router
 
-A classic OSPF design with three areas (backbone + two non-backbone areas) and an ABR — essential for CCNP and real-world enterprise networks.
+A classic OSPF design with three areas (backbone + two non-backbone areas) and an ABR, essential for CCNP and real-world enterprise networks.
 
 ## The Prompt
 
@@ -19,7 +19,7 @@ Copy this into [NetPilot](https://app.netpilot.io):
 ## Concepts Demonstrated
 
 - Why OSPF requires a backbone area (Area 0)
-- ABR responsibilities — translating LSAs across area boundaries
+- ABR responsibilities: translating LSAs across area boundaries
 - LSA types: Router (1), Network (2), Summary (3), ASBR Summary (4)
 - How Type 3 LSAs propagate inter-area routes
 - Area design principles for scaling OSPF
@@ -39,11 +39,21 @@ Copy this into [NetPilot](https://app.netpilot.io):
 - "Replace R5 with a Juniper cRPD to test OSPF interop"
 - "Configure manual area-range summarization on the ABRs"
 
+## From Claude
+
+The same lab from a Claude chat: connect NetPilot from the composer (the + menu, Connectors, the directory, NetPilot) and paste this prompt. Claude starts your lab VM, designs the topology and the IP plan, writes every router config, deploys it and reports when every OSPF neighbor is FULL. Open the lab viewer link it returns and run the show commands yourself.
+
+> Build me a multi-area OSPF lab on Cisco IOS routers: CORE-RTR-01 and CORE-RTR-02 in area 0, EDGE-RTR-01 in area 1 behind CORE-RTR-01, EDGE-RTR-02 in area 2 behind CORE-RTR-02, one Linux host behind each edge router, RFC 5737 addressing and placeholder passwords only. Design it fresh, do not reuse any saved design. Show me the topology and the IP plan as a table, deploy it on my lab VM, and tell me when every OSPF neighbor is FULL and the two hosts can ping each other.
+
+Four routers instead of five, each area behind its own backbone router and a Linux host per edge area, so the inter-area routes and the end-to-end ping are the proof. Watch it built: [the episode](https://www.youtube.com/watch?v=y3QlwAFSBM0) and the tutorial post below.
+
 ## Related Resources
 
+- [NetPilot blog: How to Connect NetPilot in Claude and Build a Real Cisco OSPF Lab From the Chat](https://www.netpilot.io/blog/netpilot-in-claude)
+- [NetPilot docs: connect NetPilot in Claude, ChatGPT and Meta Muse](https://www.netpilot.io/docs/agent-route)
 - [NetPilot blog: OSPF Configuration Lab Guide](https://www.netpilot.io/blog/ospf-configuration-lab-guide)
 - [NetPilot blog: OSPF Multi-Vendor Lab](https://www.netpilot.io/blog/ospf-multi-vendor-lab)
-- [RFC 2328 — OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
+- [RFC 2328, OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 
 ## Try It
 
