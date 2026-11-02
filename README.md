@@ -23,7 +23,7 @@
 
 A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab — real device CLIs, isolated cloud infrastructure, ready in 2 minutes.
 
-**Vendors supported:** Cisco IOL · Juniper cRPD · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · FRR
+**Vendors supported:** Cisco IOL · Juniper cRPD · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · FRR · MikroTik RouterOS
 
 ## How to use
 
@@ -38,7 +38,10 @@ A curated library of natural-language prompts you can copy and paste directly in
 ### 🚦 Routing
 Foundational and advanced routing protocol labs.
 
+- [MikroTik CHR OSPF Lab: Two RouterOS Routers](routing/mikrotik-chr-ospf-two-routers.md) ⭐
+- [MikroTik RouterOS Practice Lab](routing/mikrotik-routeros-practice-lab.md) ⭐
 - [OSPF Single Area — Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
+- [MikroTik Dual WAN Failover with PCC](routing/mikrotik-dual-wan-pcc-failover.md) ⭐⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐ · the same lab from a Claude chat: [announcement](https://github.com/orgs/netpilot-labs/discussions/10)
 - [OSPF ↔ BGP Redistribution](routing/ospf-bgp-redistribution.md) ⭐⭐
 - [Open Source Routing Lab — FRRouting BGP + OSPF](routing/frr-open-source-routing-lab.md) ⭐⭐
