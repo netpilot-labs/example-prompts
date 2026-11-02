@@ -4,9 +4,9 @@ A RouterOS lab that leaves the NAT and firewall work to you, so you type every c
 
 ## The Prompt
 
-Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it with the prompt filled in](https://app.netpilot.io/?prompt=Build%20an%20MTCNA%20practice%20lab%3A%20a%20MikroTik%20CHR%20gateway%20with%20a%20DHCP%20WAN%20from%20a%20CHR%20ISP%20router%2C%20a%20LAN%20bridge%20with%20a%20DHCP%20server%20and%20two%20Linux%20PCs%2C%20and%20a%20Linux%20web%20server%20behind%20the%20ISP.%20Leave%20NAT%20and%20the%20firewall%20for%20me%20to%20configure.):
+Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it with the prompt filled in](https://app.netpilot.io/?prompt=Build%20an%20MTCNA%20practice%20lab%3A%20a%20MikroTik%20CHR%20gateway%20with%20a%20DHCP%20WAN%20from%20a%20CHR%20ISP%20router%2C%20a%20LAN%20bridge%20with%20a%20DHCP%20server%20and%20two%20Linux%20PCs%2C%20and%20a%20Linux%20web%20server%20behind%20the%20ISP.%20Leave%20NAT%20and%20the%20firewall%20for%20me%20to%20configure%2C%20and%20tell%20me%20how%20to%20test%20NAT%20from%20a%20PC%20by%20IP%20address.):
 
-> Build an MTCNA practice lab: a MikroTik CHR gateway with a DHCP WAN from a CHR ISP router, a LAN bridge with a DHCP server and two Linux PCs, and a Linux web server behind the ISP. Leave NAT and the firewall for me to configure.
+> Build an MTCNA practice lab: a MikroTik CHR gateway with a DHCP WAN from a CHR ISP router, a LAN bridge with a DHCP server and two Linux PCs, and a Linux web server behind the ISP. Leave NAT and the firewall for me to configure, and tell me how to test NAT from a PC by IP address.
 
 ## What You'll Build
 
@@ -47,4 +47,4 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 
 ## Try It
 
-[**Open in NetPilot →**](https://app.netpilot.io/?prompt=Build%20an%20MTCNA%20practice%20lab%3A%20a%20MikroTik%20CHR%20gateway%20with%20a%20DHCP%20WAN%20from%20a%20CHR%20ISP%20router%2C%20a%20LAN%20bridge%20with%20a%20DHCP%20server%20and%20two%20Linux%20PCs%2C%20and%20a%20Linux%20web%20server%20behind%20the%20ISP.%20Leave%20NAT%20and%20the%20firewall%20for%20me%20to%20configure.)
+[**Open in NetPilot →**](https://app.netpilot.io/?prompt=Build%20an%20MTCNA%20practice%20lab%3A%20a%20MikroTik%20CHR%20gateway%20with%20a%20DHCP%20WAN%20from%20a%20CHR%20ISP%20router%2C%20a%20LAN%20bridge%20with%20a%20DHCP%20server%20and%20two%20Linux%20PCs%2C%20and%20a%20Linux%20web%20server%20behind%20the%20ISP.%20Leave%20NAT%20and%20the%20firewall%20for%20me%20to%20configure%2C%20and%20tell%20me%20how%20to%20test%20NAT%20from%20a%20PC%20by%20IP%20address.)
