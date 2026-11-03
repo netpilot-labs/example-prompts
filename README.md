@@ -81,6 +81,7 @@ Firewall zones, microsegmentation, zero-trust patterns.
 - [IPsec VPN — Site-to-Site](security/ipsec-vpn-site-to-site.md) ⭐⭐
 - [Zero-Trust Microsegmentation](security/zero-trust-microsegmentation.md) ⭐⭐⭐
 - [DDoS Blackhole (RTBH)](security/ddos-rtbh-blackhole.md) ⭐⭐⭐
+- [MikroTik Firewall Hardening After MikroTrick](security/mikrotik-firewall-hardening-mikrotrick.md) ⭐⭐
 
 ### 🔀 Multi-Vendor Interop
 Where vendors must talk to each other — NetPilot's superpower.
