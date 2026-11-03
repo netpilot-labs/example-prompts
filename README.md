@@ -23,7 +23,7 @@
 
 A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab — real device CLIs, isolated cloud infrastructure, ready in 2 minutes.
 
-**Vendors supported:** Cisco IOL · Juniper cRPD · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · FRR · MikroTik RouterOS
+**Vendors supported:** Cisco IOL · Juniper cRPD and vJunos · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · FRR · MikroTik RouterOS
 
 ## How to use
 
@@ -57,6 +57,7 @@ Foundational and advanced routing protocol labs.
 Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
 
 - [Clos Fabric with BGP Underlay (L3-Only)](data-center/clos-fabric-bgp-underlay.md) ⭐⭐
+- [Juniper EVPN-VXLAN Spine-Leaf on vJunos](data-center/juniper-evpn-vxlan-vjunos.md) ⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Symmetric IRB](data-center/leaf-spine-evpn-vxlan-symmetric-irb.md) ⭐⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Asymmetric IRB](data-center/leaf-spine-evpn-vxlan-asymmetric-irb.md) ⭐⭐⭐
 - [EVPN-VXLAN Multi-Site DCI](data-center/evpn-vxlan-multi-site-dci.md) ⭐⭐⭐
