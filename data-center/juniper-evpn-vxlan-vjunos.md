@@ -43,10 +43,10 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=juniper), or [open it 
 ## Related Resources
 
 - [NetPilot blog: Juniper EVPN-VXLAN lab](https://www.netpilot.io/blog/juniper-evpn-vxlan-lab)
-- [Video: Juniper EVPN-VXLAN Lab After vLabs: OSPF Underlay, BGP Overlay on Real Junos](https://www.youtube.com/watch?v=FILLVIDEOID)
+- [Video: Juniper EVPN-VXLAN Lab After vLabs: OSPF + BGP EVPN on Real Junos](https://www.youtube.com/watch?v=dpwCRpUGD1E)
 - [NetPilot Juniper lab page](https://www.netpilot.io/juniper-lab)
 - [Public lab files: 02-evpn-vxlan-spine-leaf](https://github.com/netpilot-labs/juniper-labs/tree/main/02-evpn-vxlan-spine-leaf)
-- [Juniper EVPN User Guide (Junos OS)](https://www.juniper.net/documentation/us/en/software/junos/evpn-vxlan/index.html)
+- [Juniper EVPN User Guide (Junos OS)](https://networkingdocs.hpe.com/documentation/us/en/software/junos/evpn/index.html)
 - [RFC 8365: A Network Virtualization Overlay Solution Using EVPN](https://datatracker.ietf.org/doc/html/rfc8365)
 - [Leaf-Spine EVPN-VXLAN with Symmetric IRB](leaf-spine-evpn-vxlan-symmetric-irb.md)
 - [Clos Fabric with BGP Underlay](clos-fabric-bgp-underlay.md)
