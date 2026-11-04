@@ -21,7 +21,7 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=juniper), or [open it 
 - The three layers of EVPN-VXLAN: OSPF reaches the loopbacks, BGP EVPN carries the MACs, VXLAN carries the frames
 - EVPN type-2 (MAC and MAC/IP) and type-3 (VTEP) routes: in our run, 6 routes in `bgp.evpn.0`, 3 per leaf
 - A route reflector with no EVPN instance of its own
-- The vJunos boot: `device ge-0/0/0 not found` until `show chassis fpc 0` reads `Online`. In our run the fabric was usable 47 minutes after the deploy
+- The vJunos boot: `device ge-0/0/0 not found` until `show chassis fpc 0` reads `Online`
 - Proof on the data plane: 5 of 5 pings from host1 to host2 with 0% loss
 
 ## Vendors Used
