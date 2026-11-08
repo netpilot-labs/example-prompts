@@ -109,6 +109,11 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [NetBox Site → Digital Twin: Rehearse a Change from Your Source of Truth](change-validation/netbox-site-twin-rehearsal.md) ⭐⭐⭐
 - [Source-of-Truth Drift Detection: Nautobot vs Live State (NetBox variant inside)](change-validation/sot-drift-detection.md) ⭐⭐⭐
 
+### 🩺 Troubleshooting
+Find a fault from the symptom, fix it and prove it on the CLI.
+
+- [Cisco IOS Hub and Spoke OSPF: Design, Deploy, Troubleshoot and Document with an AI Agent](troubleshooting/ai-five-jobs-cisco-ios.md) ⭐⭐
+
 ### 🎯 POC / Sales Engineering
 Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Vibe labbing register — describe the prospect's network in plain English, ship them a shareable URL.
 
