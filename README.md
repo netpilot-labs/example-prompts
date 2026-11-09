@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Copy-paste prompts for NetPilot.</strong> Describe any network in plain English; deploy a working multi-vendor lab in 2 minutes.
+  <strong>Copy-paste prompts for NetPilot.</strong> Describe any network in plain English and deploy a working multi-vendor lab in 2 minutes.
 </p>
 
 <p align="center">
@@ -21,11 +21,11 @@
 
 ## What is this?
 
-A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab — real device CLIs, isolated cloud infrastructure, ready in 2 minutes.
+A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab with real device CLIs on isolated cloud infrastructure, ready in 2 minutes. The tested lab files behind them are in [network-labs](https://github.com/netpilot-labs/network-labs).
 
 The tested lab files (topology and configs) for many of these prompts are in [network-labs](https://github.com/netpilot-labs/network-labs), ready to deploy with containerlab on your own Linux host.
 
-**Vendors supported:** Cisco IOL · Juniper cRPD and vJunos · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · FRR · MikroTik RouterOS
+**Vendors supported:** Cisco IOL · Juniper cRPD and vJunos · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · SONiC · FRR · MikroTik RouterOS
 
 ## How to use
 
@@ -42,11 +42,14 @@ Foundational and advanced routing protocol labs.
 
 - [MikroTik CHR OSPF Lab: Two RouterOS Routers](routing/mikrotik-chr-ospf-two-routers.md) ⭐
 - [MikroTik RouterOS Practice Lab](routing/mikrotik-routeros-practice-lab.md) ⭐
-- [OSPF Single Area — Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
+- [Arista cEOS eBGP Lab: Two Switches and Two Hosts](routing/arista-ceos-ebgp-two-switches.md) ⭐
+- [SONiC eBGP Lab: Two Switches on One Link](routing/sonic-ebgp-two-switches.md) ⭐
+- [Juniper vJunos OSPF Lab: Two Routers and Two Hosts](routing/juniper-vjunos-ospf-two-routers.md) ⭐
+- [OSPF Single Area: Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
 - [MikroTik Dual WAN Failover with PCC](routing/mikrotik-dual-wan-pcc-failover.md) ⭐⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐ · the same lab from a Claude chat: [announcement](https://github.com/orgs/netpilot-labs/discussions/10)
 - [OSPF ↔ BGP Redistribution](routing/ospf-bgp-redistribution.md) ⭐⭐
-- [Open Source Routing Lab — FRRouting BGP + OSPF](routing/frr-open-source-routing-lab.md) ⭐⭐
+- [Open Source Routing Lab: FRRouting BGP + OSPF](routing/frr-open-source-routing-lab.md) ⭐⭐
 - [eBGP Three-AS Multi-Vendor](routing/bgp-ebgp-three-as.md) ⭐⭐
 - [IPv6 Dual-Stack Network](routing/ipv6-dual-stack.md) ⭐⭐
 - [BGP Route Reflector Cluster](routing/bgp-route-reflector-cluster.md) ⭐⭐⭐
@@ -60,6 +63,9 @@ Modern leaf-spine, EVPN-VXLAN, and AI workload fabrics.
 
 - [Clos Fabric with BGP Underlay (L3-Only)](data-center/clos-fabric-bgp-underlay.md) ⭐⭐
 - [Juniper EVPN-VXLAN Spine-Leaf on vJunos](data-center/juniper-evpn-vxlan-vjunos.md) ⭐⭐
+- [Arista MLAG Pair with VARP: Dual-Homed Host and Failover](data-center/arista-mlag-varp-pair.md) ⭐⭐
+- [SONiC Leaf-Spine with eBGP and ECMP](data-center/sonic-bgp-leaf-spine-ecmp.md) ⭐⭐
+- [SONiC EVPN-VXLAN with an L2 VNI](data-center/sonic-evpn-vxlan-l2vni.md) ⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Symmetric IRB](data-center/leaf-spine-evpn-vxlan-symmetric-irb.md) ⭐⭐⭐
 - [Leaf-Spine EVPN-VXLAN with Asymmetric IRB](data-center/leaf-spine-evpn-vxlan-asymmetric-irb.md) ⭐⭐⭐
 - [EVPN-VXLAN Multi-Site DCI](data-center/evpn-vxlan-multi-site-dci.md) ⭐⭐⭐
@@ -71,7 +77,7 @@ MPLS L3VPN, Segment Routing, traffic engineering.
 
 - [MPLS L3VPN Basic](service-provider/mpls-l3vpn-basic.md) ⭐⭐
 - [Segment Routing MPLS](service-provider/segment-routing-mpls.md) ⭐⭐⭐
-- [SRv6 — Segment Routing over IPv6](service-provider/srv6-segment-routing-v6.md) ⭐⭐⭐
+- [SRv6: Segment Routing over IPv6](service-provider/srv6-segment-routing-v6.md) ⭐⭐⭐
 - [MPLS Traffic Engineering (SR-TE)](service-provider/mpls-traffic-engineering.md) ⭐⭐⭐
 - [Inter-AS L3VPN Option B](service-provider/inter-as-vpn-option-b.md) ⭐⭐⭐
 - [FRR SRv6 L3VPN Lab](service-provider/frr-srv6-mpls.md) ⭐⭐⭐
@@ -81,13 +87,13 @@ Firewall zones, microsegmentation, zero-trust patterns.
 
 - [Firewall DMZ Zones (Palo Alto)](security/firewall-dmz-zones-palo-alto.md) ⭐⭐
 - [Firewall DMZ Zones (Fortinet)](security/firewall-dmz-zones-fortinet.md) ⭐⭐
-- [IPsec VPN — Site-to-Site](security/ipsec-vpn-site-to-site.md) ⭐⭐
+- [IPsec VPN: Site-to-Site](security/ipsec-vpn-site-to-site.md) ⭐⭐
 - [Zero-Trust Microsegmentation](security/zero-trust-microsegmentation.md) ⭐⭐⭐
 - [DDoS Blackhole (RTBH)](security/ddos-rtbh-blackhole.md) ⭐⭐⭐
 - [MikroTik Firewall Hardening After MikroTrick](security/mikrotik-firewall-hardening-mikrotrick.md) ⭐⭐
 
 ### 🔀 Multi-Vendor Interop
-Where vendors must talk to each other — NetPilot's superpower.
+Where vendors must talk to each other.
 
 - [Cisco + Arista EVPN-VXLAN Interop](multi-vendor/cisco-arista-evpn-vxlan-interop.md) ⭐⭐⭐
 - [Cisco + Juniper MPLS L3VPN Interop](multi-vendor/cisco-juniper-mpls-l3vpn.md) ⭐⭐⭐
@@ -95,7 +101,7 @@ Where vendors must talk to each other — NetPilot's superpower.
 - [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐
 
 ### ✅ Change Validation
-Test changes safely before pushing to production. Start with the **workflow prompt** — it's the overarching pattern (mirror → snapshot → apply → diff) that every specific change type below applies.
+Test changes safely before pushing to production. Start with the **workflow prompt**. It is the overarching pattern (mirror → snapshot → apply → diff) that every specific change type below applies.
 
 - [**Change Validation Workflow** (mirror, snapshot, apply, diff)](change-validation/change-validation-workflow.md) ⭐⭐⭐
 - [Firewall Rule Deployment Test](change-validation/firewall-rule-deployment.md) ⭐⭐
@@ -104,25 +110,26 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [OSPF Area Redesign Migration](change-validation/ospf-area-redesign.md) ⭐⭐⭐
 - [Data Center VLAN Migration](change-validation/data-center-vlan-migration.md) ⭐⭐⭐
 - [OTV-to-EVPN DCI Migration](change-validation/otv-to-evpn-migration.md) ⭐⭐⭐
-- [Vendor Migration — Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
-- [Vendor Migration Rehearsal — Translate, Diff-Validate, Failover-Test, Go/No-Go](change-validation/vendor-migration-rehearsal.md) ⭐⭐⭐
-- [Cisco to Aruba AOS-CX Migration — VSX Core Rehearsal (BYOI)](change-validation/cisco-to-aruba-aos-cx-migration.md) ⭐⭐⭐
-- [NRFU Acceptance Test Plan — Generated, Executed, Signed Off](change-validation/nrfu-acceptance-test-plan.md) ⭐⭐⭐
+- [Vendor Migration: Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
+- [Vendor Migration Rehearsal: Translate, Diff-Validate, Failover-Test, Go/No-Go](change-validation/vendor-migration-rehearsal.md) ⭐⭐⭐
+- [Cisco to Aruba AOS-CX Migration: VSX Core Rehearsal (BYOI)](change-validation/cisco-to-aruba-aos-cx-migration.md) ⭐⭐⭐
+- [NRFU Acceptance Test Plan: Generated, Executed, Signed Off](change-validation/nrfu-acceptance-test-plan.md) ⭐⭐⭐
 - [NetBox Site → Digital Twin: Rehearse a Change from Your Source of Truth](change-validation/netbox-site-twin-rehearsal.md) ⭐⭐⭐
 - [Source-of-Truth Drift Detection: Nautobot vs Live State (NetBox variant inside)](change-validation/sot-drift-detection.md) ⭐⭐⭐
 
 ### 🩺 Troubleshooting
 Find a fault from the symptom, fix it and prove it on the CLI.
 
+- [Cisco IOS OSPF MTU Mismatch Lab: Neighbors Stuck in EXSTART](troubleshooting/cisco-ios-ospf-mtu-mismatch.md) ⭐
 - [Cisco IOS Hub and Spoke OSPF: Design, Deploy, Troubleshoot and Document with an AI Agent](troubleshooting/ai-five-jobs-cisco-ios.md) ⭐⭐
 
 ### 🎯 POC / Sales Engineering
-Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Vibe labbing register — describe the prospect's network in plain English, ship them a shareable URL.
+Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Describe the prospect's network in plain English and send them a shareable URL.
 
 - [**Customer-Matched POC Demo Lab** (mirror the prospect's network)](poc/customer-matched-demo-lab.md) ⭐⭐
 
 ### 🔬 Research
-Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance — for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://www.netpilot.io/network-research-lab) hub.
+Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance, for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://www.netpilot.io/network-research-lab) hub.
 
 - [FRR EVPN/VXLAN Leaf-Spine Fabric](research/frr-evpn-vxlan-lab.md) ⭐⭐⭐
 - [Cross-Vendor EVPN Bug Reproduction](research/cross-vendor-evpn-bug-reproduction.md) ⭐⭐⭐
@@ -137,20 +144,20 @@ Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance
 ### 🛠️ Advanced
 Automation, integration, and complex scenarios.
 
-- [Source-of-Truth Queries: What to Ask an AI Connected to NetBox/Nautobot](advanced/netbox-nautobot-agent-queries.md) ⭐ *(records-only, no lab deployed by default; labs come from the follow-up prompts)*
+- [Source-of-Truth Queries: What to Ask an AI Connected to NetBox/Nautobot](advanced/netbox-nautobot-agent-queries.md) ⭐ *(records only, with no lab deployed by default. Labs come from the follow-up prompts.)*
 - [Bring Your Own Agent: Drive NetPilot from Claude, Cursor or Your In-House Agent over MCP](advanced/bring-your-own-agent-mcp.md) ⭐⭐
-- [Traffic Generation & Impairment Testing — iperf3 Over a Degraded WAN](advanced/traffic-generation-impairment-testing.md) ⭐⭐
+- [Traffic Generation & Impairment Testing: iperf3 Over a Degraded WAN](advanced/traffic-generation-impairment-testing.md) ⭐⭐
 - [QoS End-to-End Marking and Queuing](advanced/qos-end-to-end-marking.md) ⭐⭐⭐
 - [Multicast PIM Sparse Mode](advanced/multicast-pim-sparse-mode.md) ⭐⭐⭐
 - [Network Telemetry with gNMI Streaming](advanced/network-telemetry-gnmi.md) ⭐⭐⭐
-- [NETCONF, gNMI & OpenConfig — Programmable Multi-Vendor](advanced/netconf-gnmi-openconfig.md) ⭐⭐⭐
+- [NETCONF, gNMI & OpenConfig: Programmable Multi-Vendor](advanced/netconf-gnmi-openconfig.md) ⭐⭐⭐
 - [Network-as-Code with Ansible](advanced/network-as-code-with-ansible.md) ⭐⭐⭐
 
 ## Difficulty Levels
 
-- ⭐ **Beginner** — single protocol, 2-3 devices, foundational concepts
-- ⭐⭐ **Intermediate** — multi-feature, 4-6 devices, real-world patterns
-- ⭐⭐⭐ **Advanced** — complex topologies, multi-vendor interop, production-grade scenarios
+- ⭐ **Beginner**: single protocol, 2-3 devices, foundational concepts
+- ⭐⭐ **Intermediate**: multi-feature, 4-6 devices, real-world patterns
+- ⭐⭐⭐ **Advanced**: complex topologies, multi-vendor interop, production-grade scenarios
 
 ## Contributing
 
@@ -168,9 +175,9 @@ Have a prompt that worked great? [Open a PR](https://github.com/netpilot-labs/ex
 | **Network Research Lab** | [www.netpilot.io/network-research-lab](https://www.netpilot.io/network-research-lab) |
 | **Tested lab files** | [github.com/netpilot-labs/network-labs](https://github.com/netpilot-labs/network-labs) |
 | **Community discussions** | [github.com/netpilot-labs/community](https://github.com/netpilot-labs/community) |
-| **LinkedIn** | [Follow NetPilot](https://www.linkedin.com/company/netpilot) — new prompts, lab breakdowns, product updates |
+| **LinkedIn** | [Follow NetPilot](https://www.linkedin.com/company/netpilot): new prompts, lab breakdowns, product updates |
 | **Status** | [status.netpilot.io](https://status.netpilot.io) |
 
 ## License
 
-MIT — copy, fork, remix anything in this repo.
+MIT. Copy, fork and remix anything in this repo.
