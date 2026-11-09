@@ -43,9 +43,12 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 - [Video: MikroTik Dual WAN Failover](https://www.youtube.com/watch?v=JV5ShYpbps8)
 - [NetPilot MikroTik lab page](https://www.netpilot.io/mikrotik-lab)
 - [MikroTik docs: Load Balancing](https://help.mikrotik.com/docs/spaces/ROS/pages/4390920/Load+Balancing)
-- [Public lab files: 03-dual-wan-pcc](https://github.com/netpilot-labs/mikrotik-labs/tree/main/03-dual-wan-pcc)
 - [MikroTik CHR OSPF Lab: Two RouterOS Routers](mikrotik-chr-ospf-two-routers.md)
 - [MikroTik RouterOS Practice Lab](mikrotik-routeros-practice-lab.md)
+
+## Run it yourself
+
+The tested containerlab files for this lab, to deploy on your own Linux host: [network-labs/mikrotik/dual-wan-pcc](https://github.com/netpilot-labs/network-labs/tree/main/mikrotik/dual-wan-pcc).
 
 ## Try It
 

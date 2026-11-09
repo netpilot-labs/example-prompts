@@ -23,6 +23,8 @@
 
 A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab — real device CLIs, isolated cloud infrastructure, ready in 2 minutes.
 
+The tested lab files (topology and configs) for many of these prompts are in [network-labs](https://github.com/netpilot-labs/network-labs), ready to deploy with containerlab on your own Linux host.
+
 **Vendors supported:** Cisco IOL · Juniper cRPD and vJunos · Arista cEOS · Nokia SR Linux · Palo Alto PAN-OS · Fortinet FortiGate · FRR · MikroTik RouterOS
 
 ## How to use
@@ -164,6 +166,7 @@ Have a prompt that worked great? [Open a PR](https://github.com/netpilot-labs/ex
 | **Documentation** | [www.netpilot.io/docs](https://www.netpilot.io/docs) |
 | **Blog tutorials** | [www.netpilot.io/blog](https://www.netpilot.io/blog) |
 | **Network Research Lab** | [www.netpilot.io/network-research-lab](https://www.netpilot.io/network-research-lab) |
+| **Tested lab files** | [github.com/netpilot-labs/network-labs](https://github.com/netpilot-labs/network-labs) |
 | **Community discussions** | [github.com/netpilot-labs/community](https://github.com/netpilot-labs/community) |
 | **LinkedIn** | [Follow NetPilot](https://www.linkedin.com/company/netpilot) — new prompts, lab breakdowns, product updates |
 | **Status** | [status.netpilot.io](https://status.netpilot.io) |

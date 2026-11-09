@@ -60,10 +60,13 @@ Last, the handover:
 
 - [NetPilot blog: Best AI tools for network engineers, with this test's scorecard](https://www.netpilot.io/blog/ai-tools-for-network-engineers#tested-on-a-real-cisco-lab-five-tasks-one-scorecard)
 - [Video: AI for Network Engineers: 5 Real Tasks on a Real Cisco Lab, Scored](https://www.youtube.com/watch?v=H2xePvVEauA)
-- [Public lab files: 02-hub-spoke-ospf](https://github.com/netpilot-labs/cisco-labs/tree/main/02-hub-spoke-ospf)
 - [Cisco: Troubleshoot OSPF neighbor problems](https://www.cisco.com/c/en/us/support/docs/ip/open-shortest-path-first-ospf/13699-29.html)
 - [RFC 2328: OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 - [DMVPN Hub-and-Spoke](../routing/dmvpn-hub-and-spoke.md)
+
+## Run it yourself
+
+The tested containerlab files for this lab, to deploy on your own Linux host: [network-labs/cisco/hub-spoke-ospf](https://github.com/netpilot-labs/network-labs/tree/main/cisco/hub-spoke-ospf).
 
 ## Try It
 

@@ -41,9 +41,12 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 - [NetPilot blog: MTCNA Practice Lab](https://www.netpilot.io/blog/mtcna-practice-lab)
 - [NetPilot MikroTik lab page](https://www.netpilot.io/mikrotik-lab)
 - [MikroTik docs: First Time Configuration](https://help.mikrotik.com/docs/spaces/ROS/pages/328151/First+Time+Configuration)
-- [Public lab files: 02-mtcna-practice](https://github.com/netpilot-labs/mikrotik-labs/tree/main/02-mtcna-practice)
 - [MikroTik CHR OSPF Lab: Two RouterOS Routers](mikrotik-chr-ospf-two-routers.md)
 - [MikroTik Dual WAN Failover with PCC](mikrotik-dual-wan-pcc-failover.md)
+
+## Run it yourself
+
+The tested containerlab files for this lab, to deploy on your own Linux host: [network-labs/mikrotik/mtcna-practice](https://github.com/netpilot-labs/network-labs/tree/main/mikrotik/mtcna-practice).
 
 ## Try It
 
