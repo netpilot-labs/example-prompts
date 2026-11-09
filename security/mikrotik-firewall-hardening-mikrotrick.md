@@ -43,9 +43,12 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 - [Video: MikroTrick: Your Patched MikroTik Can Still Be Wide Open](https://www.youtube.com/watch?v=Dr9VXWuxe6Y)
 - [NetPilot MikroTik lab page](https://www.netpilot.io/mikrotik-lab)
 - [MikroTik security advisory, September 2026](https://mikrotik.com/supportsec/september-2026-vulnerability/)
-- [Public lab files: 04-mikrotrick-hardening](https://github.com/netpilot-labs/mikrotik-labs/tree/main/04-mikrotrick-hardening)
 - [MikroTik Dual WAN Failover with PCC](../routing/mikrotik-dual-wan-pcc-failover.md)
 - [MikroTik RouterOS Practice Lab](../routing/mikrotik-routeros-practice-lab.md)
+
+## Run it yourself
+
+The tested containerlab files for this lab, to deploy on your own Linux host: [network-labs/mikrotik/mikrotrick-hardening](https://github.com/netpilot-labs/network-labs/tree/main/mikrotik/mikrotrick-hardening).
 
 ## Try It
 

@@ -39,9 +39,12 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 - [NetPilot blog: Run the Official MikroTik CHR Image in containerlab](https://www.netpilot.io/blog/mikrotik-chr-containerlab)
 - [NetPilot MikroTik lab page](https://www.netpilot.io/mikrotik-lab)
 - [MikroTik docs: OSPF](https://help.mikrotik.com/docs/spaces/ROS/pages/9863229/OSPF)
-- [Public lab files: 01-chr-two-routers](https://github.com/netpilot-labs/mikrotik-labs/tree/main/01-chr-two-routers)
 - [MikroTik RouterOS Practice Lab](mikrotik-routeros-practice-lab.md)
 - [MikroTik Dual WAN Failover with PCC](mikrotik-dual-wan-pcc-failover.md)
+
+## Run it yourself
+
+The tested containerlab files for this lab, to deploy on your own Linux host: [network-labs/mikrotik/chr-two-routers](https://github.com/netpilot-labs/network-labs/tree/main/mikrotik/chr-two-routers).
 
 ## Try It
 
