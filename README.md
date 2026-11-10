@@ -127,6 +127,7 @@ Find a fault from the symptom, fix it and prove it on the CLI.
 Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Describe the prospect's network in plain English and send them a shareable URL.
 
 - [**Customer-Matched POC Demo Lab** (mirror the prospect's network)](poc/customer-matched-demo-lab.md) ⭐⭐
+- [**SONiC Fabric Design Validation** (prove it survives a spine failure)](poc/design-validation-spine-failure.md) ⭐⭐
 
 ### 🔬 Research
 Cross-vendor bug reproduction, protocol research, scale testing, RFC conformance, for carrier, vendor, hyperscaler, defense, and academic research teams. Companion to the [Network Research Lab](https://www.netpilot.io/network-research-lab) hub.
