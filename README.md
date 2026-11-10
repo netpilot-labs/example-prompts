@@ -45,7 +45,7 @@ Foundational and advanced routing protocol labs.
 - [Arista cEOS eBGP Lab: Two Switches and Two Hosts](routing/arista-ceos-ebgp-two-switches.md) ⭐
 - [SONiC eBGP Lab: Two Switches on One Link](routing/sonic-ebgp-two-switches.md) ⭐
 - [Juniper vJunos OSPF Lab: Two Routers and Two Hosts](routing/juniper-vjunos-ospf-two-routers.md) ⭐
-- [OSPF Single Area: Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐
+- [OSPF Single Area: Three Router Lab](routing/ospf-single-area-three-routers.md) ⭐ · the same lab from a ChatGPT chat: [announcement](https://github.com/orgs/netpilot-labs/discussions/13)
 - [MikroTik Dual WAN Failover with PCC](routing/mikrotik-dual-wan-pcc-failover.md) ⭐⭐
 - [OSPF Multi-Area with ABR](routing/ospf-multi-area-with-abr.md) ⭐⭐ · the same lab from a Claude chat: [announcement](https://github.com/orgs/netpilot-labs/discussions/10)
 - [OSPF ↔ BGP Redistribution](routing/ospf-bgp-redistribution.md) ⭐⭐
