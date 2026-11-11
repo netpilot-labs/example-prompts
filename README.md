@@ -98,7 +98,7 @@ Where vendors must talk to each other.
 - [Cisco + Arista EVPN-VXLAN Interop](multi-vendor/cisco-arista-evpn-vxlan-interop.md) ⭐⭐⭐
 - [Cisco + Juniper MPLS L3VPN Interop](multi-vendor/cisco-juniper-mpls-l3vpn.md) ⭐⭐⭐
 - [Juniper + Nokia IS-IS Interop](multi-vendor/juniper-nokia-isis.md) ⭐⭐⭐
-- [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐
+- [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐ · [from ChatGPT, three vendors](multi-vendor/all-vendors-ospf-area-0.md#from-chatgpt)
 
 ### ✅ Change Validation
 Test changes safely before pushing to production. Start with the **workflow prompt**. It is the overarching pattern (mirror → snapshot → apply → diff) that every specific change type below applies.
