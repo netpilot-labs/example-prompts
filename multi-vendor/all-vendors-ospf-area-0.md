@@ -1,6 +1,6 @@
-# All-Vendors OSPF Area 0 — The Ultimate Interop Test
+# All-Vendors OSPF Area 0: The Ultimate Interop Test
 
-A single OSPF Area 0 running across Cisco, Juniper, Arista, Nokia, and FRR — if you want to know if OSPF is truly vendor-agnostic, run this lab.
+A single OSPF Area 0 running across Cisco, Juniper, Arista, Nokia, and FRR. If you want to know if OSPF is truly vendor-agnostic, run this lab.
 
 ## The Prompt
 
@@ -46,19 +46,19 @@ Ran as written in ChatGPT on 2026-11-11: R2 read two neighbors FULL, R1 and R3 o
 
 ## Variations to Try
 
-- "Replace MD5 with OSPF SHA authentication — check which vendors support it"
+- "Replace MD5 with OSPF SHA authentication, then check which vendors support it"
 - "Add an ABR to split into multiple areas and observe inter-vendor Type 3 LSA exchange"
 - "Add external routes via redistribution from one vendor and observe Type 5 LSAs"
 - "Configure OSPFv3 for IPv6 instead"
 
 ## Why This Matters
 
-Vendor marketing claims "OSPF is standard" — but real interop testing exposes edge cases: authentication key format differences, DR election tiebreakers, timer defaults, and LSA aging behaviors. This lab catches them.
+Vendor marketing claims "OSPF is standard", but real interop testing exposes edge cases: authentication key format differences, DR election tiebreakers, timer defaults, and LSA aging behaviors. This lab catches them.
 
 ## Related Resources
 
 - [NetPilot blog: OSPF Multi-Vendor Lab](https://www.netpilot.io/blog/ospf-multi-vendor-lab)
-- [RFC 2328 — OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
+- [RFC 2328: OSPF Version 2](https://datatracker.ietf.org/doc/html/rfc2328)
 - [Related: OSPF Multi-Area with ABR](../routing/ospf-multi-area-with-abr.md)
 
 ## Try It
