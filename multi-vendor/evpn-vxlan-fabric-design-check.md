@@ -72,6 +72,8 @@ The topology and startup configs from this run, with BFD saved in, are the [publ
 
 ## Related Resources
 
+- [The walkthrough: validate an EVPN VXLAN fabric design before you build it](https://www.netpilot.io/blog/validate-evpn-vxlan-fabric-design)
+- [Watch the run](https://www.youtube.com/watch?v=L5JOBu22jgw)
 - [Run it yourself: the EVPN-VXLAN lab on Arista, Nokia and a Cisco edge](https://github.com/netpilot-labs/network-labs/tree/main/multi-vendor/evpn-vxlan-arista-nokia-cisco-edge)
 - [Network change validation with NetPilot](https://www.netpilot.io/network-change-validation)
 - [SONiC fabric design validation: prove it survives a spine failure](../poc/design-validation-spine-failure.md)
