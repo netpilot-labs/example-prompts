@@ -97,6 +97,7 @@ Where vendors must talk to each other.
 
 - [Cisco + Arista EVPN-VXLAN Interop](multi-vendor/cisco-arista-evpn-vxlan-interop.md) ⭐⭐⭐
 - [Cisco + Juniper MPLS L3VPN Interop](multi-vendor/cisco-juniper-mpls-l3vpn.md) ⭐⭐⭐
+- [EVPN-VXLAN Fabric Design Check: Arista and Nokia Leaves, a Cisco WAN Edge](multi-vendor/evpn-vxlan-fabric-design-check.md) ⭐⭐⭐
 - [Juniper + Nokia IS-IS Interop](multi-vendor/juniper-nokia-isis.md) ⭐⭐⭐
 - [All-Vendors OSPF Area 0 (5-vendor)](multi-vendor/all-vendors-ospf-area-0.md) ⭐⭐⭐ · [from ChatGPT, three vendors](multi-vendor/all-vendors-ospf-area-0.md#from-chatgpt)
 
