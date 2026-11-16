@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Copy-paste prompts for NetPilot.</strong> Describe any network in plain English and deploy a working multi-vendor lab in 2 minutes.
+  <strong>Copy-paste prompts for NetPilot.</strong> Describe any network in plain English and deploy a working multi-vendor lab in minutes.
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 
 ## What is this?
 
-A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab with real device CLIs on isolated cloud infrastructure, ready in 2 minutes. The tested lab files behind them are in [network-labs](https://github.com/netpilot-labs/network-labs).
+A curated library of natural-language prompts you can copy and paste directly into [NetPilot](https://app.netpilot.io). Each prompt builds a fully working multi-vendor network lab with real device CLIs on isolated cloud infrastructure, ready in minutes. The tested lab files behind them are in [network-labs](https://github.com/netpilot-labs/network-labs).
 
 The tested lab files (topology and configs) for many of these prompts are in [network-labs](https://github.com/netpilot-labs/network-labs), ready to deploy with containerlab on your own Linux host.
 
@@ -114,7 +114,7 @@ Test changes safely before pushing to production. Start with the **workflow prom
 - [Vendor Migration: Cisco IOS to Arista EOS](change-validation/vendor-migration-cisco-to-arista.md) ⭐⭐⭐
 - [Vendor Migration Rehearsal: Translate, Diff-Validate, Failover-Test, Go/No-Go](change-validation/vendor-migration-rehearsal.md) ⭐⭐⭐
 - [Cisco to Aruba AOS-CX Migration: VSX Core Rehearsal (BYOI)](change-validation/cisco-to-aruba-aos-cx-migration.md) ⭐⭐⭐
-- [Router Swap Flood Rehearsal: a New Arista Edge Against a Cisco OSPF Core, with CoPP](change-validation/router-swap-flood-rehearsal.md) ⭐⭐⭐
+- [Router Swap Flood Rehearsal: a New Juniper Router Floods a Legacy Cisco OSPF Core](change-validation/router-swap-flood-rehearsal.md) ⭐⭐⭐
 - [NRFU Acceptance Test Plan: Generated, Executed, Signed Off](change-validation/nrfu-acceptance-test-plan.md) ⭐⭐⭐
 - [NetBox Site → Digital Twin: Rehearse a Change from Your Source of Truth](change-validation/netbox-site-twin-rehearsal.md) ⭐⭐⭐
 - [Source-of-Truth Drift Detection: Nautobot vs Live State (NetBox variant inside)](change-validation/sot-drift-detection.md) ⭐⭐⭐
