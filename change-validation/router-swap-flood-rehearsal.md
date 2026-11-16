@@ -46,6 +46,7 @@ At 250 attempts a second, the reported rate, the core's CPU stayed at 1 % or und
 
 ## Related Resources
 
+- [FAA ground stop: the router swap flood, rebuilt in a lab](https://www.netpilot.io/blog/faa-ground-stop-router-swap-lab): the full run, the numbers and a cutover checklist
 - Run it yourself: [router-swap-control-plane-flood](https://github.com/netpilot-labs/network-labs/tree/main/multi-vendor/router-swap-control-plane-flood) in network-labs
 - [Vendor Migration: Cisco IOS to Arista EOS](vendor-migration-cisco-to-arista.md)
 - [Firmware Upgrade Failover Test](firmware-upgrade-failover.md)
