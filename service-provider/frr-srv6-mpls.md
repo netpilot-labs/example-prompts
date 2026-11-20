@@ -40,11 +40,11 @@ Copy this into [NetPilot](https://app.netpilot.io):
 - "Replace IS-IS underlay with OSPF to compare underlay IGP behavior"
 - "Add traffic engineering: configure an explicit SRv6 segment list to steer tenant traffic via P1 rather than P2"
 - "Mix FRR PEs with a Cisco IOL or Nokia SR Linux P router to test multi-vendor SRv6 interop"
-- "Pin FRR version to 10.3+ to test SRv6 uSID F4816 format support"
+- "Switch the locators to SRv6 uSID and compare the SID table with the full-SID run"
 
 ## Why This Matters
 
-SRv6 is the next-generation dataplane for both carrier networks and hyperscaler AI cluster fabrics. Alibaba, Cisco, Microsoft, and Nvidia have collaborated on SRv6 uSID for AI backend use-cases — and FRR 10.3+ ships the same feature set. This lab validates:
+SRv6 is the next-generation dataplane for both carrier networks and hyperscaler AI cluster fabrics. Alibaba, Cisco, Microsoft, and Nvidia have collaborated on SRv6 uSID for AI backend use-cases. Every NetPilot lab runs FRR 10.7.1, with SRv6 L3VPN verified on it and uSID locators in the same release. This lab validates:
 
 - **Carrier teams** evaluating SRv6 as a replacement for MPLS L3VPN
 - **Hyperscaler fabric engineers** testing FRR SRv6 behavior alongside SONiC deployments
