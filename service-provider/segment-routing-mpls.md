@@ -6,7 +6,7 @@ A modern SP backbone using Segment Routing over MPLS — the LDP-free, source-ro
 
 Copy this into [NetPilot](https://app.netpilot.io):
 
-> Build a 4-router Segment Routing MPLS network with Cisco IOL. R1, R2, R3, R4 form a square topology, all in IS-IS Level 2, AS 65000. Enable Segment Routing extensions in IS-IS to advertise SR-MPLS prefix and adjacency SIDs. Allocate Node SIDs from the SRGB (start 16000): R1=16001, R2=16002, R3=16003, R4=16004. No LDP — labels come from the IGP. Add a TI-LFA (Topology-Independent Loop-Free Alternates) post-convergence backup path on each router. Loopbacks: 1.1.1.1/32 to 4.4.4.4/32. Verify SR labels in the LFIB, confirm IS-IS SR sub-TLV exchange, and test sub-50ms convergence by failing one inter-router link.
+> Build a 4-router Segment Routing MPLS network with Cisco IOL. R1, R2, R3, R4 form a square topology, all in IS-IS Level 2, AS 65000. Enable Segment Routing extensions in IS-IS to advertise SR-MPLS prefix and adjacency SIDs. Allocate Node SIDs from the SRGB (start 16000): R1=16001, R2=16002, R3=16003, R4=16004. No LDP — labels come from the IGP. Add a TI-LFA (Topology-Independent Loop-Free Alternates) post-convergence backup path on each router. Loopbacks: 1.1.1.1/32 to 4.4.4.4/32. Verify SR labels in the LFIB, confirm IS-IS SR sub-TLV exchange,, then fail one inter-router link and show traffic moving to the TI-LFA repair path.
 
 ## What You'll Build
 

@@ -77,7 +77,7 @@ MPLS L3VPN, Segment Routing, traffic engineering.
 
 - [MPLS L3VPN Basic](service-provider/mpls-l3vpn-basic.md) ⭐⭐
 - [Segment Routing MPLS](service-provider/segment-routing-mpls.md) ⭐⭐⭐
-- [SRv6: Segment Routing over IPv6](service-provider/srv6-segment-routing-v6.md) ⭐⭐⭐
+- [SRv6 with uSID on FRR](service-provider/srv6-segment-routing-v6.md) ⭐⭐⭐
 - [MPLS Traffic Engineering (SR-TE)](service-provider/mpls-traffic-engineering.md) ⭐⭐⭐
 - [Inter-AS L3VPN Option B](service-provider/inter-as-vpn-option-b.md) ⭐⭐⭐
 - [FRR SRv6 L3VPN Lab](service-provider/frr-srv6-mpls.md) ⭐⭐⭐

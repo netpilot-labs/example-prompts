@@ -1,32 +1,33 @@
-# SRv6 — Segment Routing over IPv6 Dataplane
+# SRv6: Segment Routing over IPv6 Dataplane
 
-Modern segment routing using IPv6 as the dataplane (no MPLS labels) — the foundation of next-generation SP networks, 5G transport, and cloud-native infrastructure.
+Modern segment routing using IPv6 as the dataplane (no MPLS labels), built with micro-SIDs (uSID) on FRR. It is the foundation of modern SP networks, 5G transport, and cloud-native infrastructure.
 
 ## The Prompt
 
 Copy this into [NetPilot](https://app.netpilot.io):
 
-> Build a 4-router SRv6 network with Nokia SR Linux. R1, R2, R3, R4 in a square topology, all in IS-IS Level 2 with SRv6 extensions enabled. Assign SRv6 locators to each router: R1 = fc00:0:1::/64, R2 = fc00:0:2::/64, R3 = fc00:0:3::/64, R4 = fc00:0:4::/64. Configure End.X SIDs for adjacency-based steering and End SIDs (node) for endpoint reachability. Each router has a loopback IPv6 address (2001:db8::1/128 through 2001:db8::4/128). Configure an SRv6-TE policy on R1 destined to R4 steering through the explicit path R1→R2→R3→R4 (bypassing the direct shortest-path link). Verify (1) IS-IS SRv6 TLVs are advertised, (2) SRv6 SIDs are programmed into the forwarding table, (3) packets from R1 to R4 follow the explicit SID list, (4) TI-LFA backup paths exist for each segment.
+> Build a 4-router SRv6 network on FRR. R1, R2, R3, R4 in a square topology (R1-R2-R3-R4-R1), all in IS-IS Level 2 with SRv6 enabled. Give each router a uSID locator in the shared block fcbb:bb00::/32: R1 = fcbb:bb00:1::/48, R2 = fcbb:bb00:2::/48, R3 = fcbb:bb00:3::/48, R4 = fcbb:bb00:4::/48, with block-len 32, node-len 16, func-bits 16 and behavior usid. Each router has an IPv6 loopback (fc00:0:1::1/128 through fc00:0:4::1/128). Put R1 and R3 in a BGP L3VPN over SRv6 in VRF CUST (one SID per VRF, exported automatically), with a Linux host behind each: 192.168.1.0/24 behind R1, 192.168.2.0/24 behind R3. Verify (1) each router's SID table shows its uN node SID and a uA adjacency SID per IS-IS link, (2) every locator is in every router's IPv6 route table via IS-IS, (3) R1's VPN route to 192.168.2.0/24 carries R3's uDT46 SID, (4) the hosts ping each other with 0% loss, and (5) a capture on a core link shows the packet carried in IPv6 to R3's SID, with no MPLS label.
 
 ## What You'll Build
 
-- 4 Nokia SR Linux routers in a square topology
-- IS-IS Level 2 underlay with SRv6 extensions
-- SRv6 locators, End, and End.X SIDs
-- SRv6-TE explicit path policy
-- TI-LFA fast reroute
+- 4 FRR routers in a square topology
+- IS-IS Level 2 underlay with SRv6 locators in a shared uSID block
+- uN (node) and uA (adjacency) micro-SIDs, allocated by IS-IS
+- A BGP L3VPN over SRv6 with a uDT46 SID per VRF
+- 2 Linux hosts in the tenant VRF to prove reachability
 
 ## Concepts Demonstrated
 
 - Why SRv6 vs SR-MPLS (no MPLS required, native IPv6 encapsulation)
-- SRv6 SID structure (Locator + Function + Args)
-- End SID vs End.X SID vs End.DT4 (VPN context)
-- SR-TE over SRv6 — explicit source routing in IPv6
+- SRv6 SID structure (Locator + Function + Args) and the uSID block, node and function lengths
+- uN vs uA vs uDT46: node, adjacency and VPN-context SIDs
+- How an L3VPN rides on one IPv6 destination address instead of a label stack
 - Why SRv6 is central to 5G transport and cloud-native networking
 
 ## Vendors Used
 
-- Nokia SR Linux (all 4 routers) — leading SRv6 implementation
+- FRR (all 4 routers), open-source SRv6 with uSID
+- Linux hosts as the tenant endpoints
 
 ## Difficulty
 
@@ -34,10 +35,9 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Variations to Try
 
-- "Add Cisco IOS-XR routers for multi-vendor SRv6 interop (watch for SID compression differences)"
-- "Layer a VPN service on top using End.DT4 (IPv4 VPN over SRv6)"
-- "Migrate from this SRv6 design to a parallel SR-MPLS design and compare operational differences"
-- "Add SRv6 Flex-Algo for computed min-latency paths"
+- "Add a second VRF and show each VRF gets its own uDT46 SID"
+- "Shut the R1-R2 link and show IS-IS reroutes the locators while the VPN stays up"
+- "Build the same square in SR-MPLS on Cisco IOL with TI-LFA and an explicit SR-TE policy, then compare the two data planes" (see [Segment Routing MPLS](segment-routing-mpls.md))
 
 ## Why This Matters in 2026
 
@@ -45,8 +45,9 @@ Copy this into [NetPilot](https://app.netpilot.io):
 
 ## Related Resources
 
-- [RFC 8986 — Segment Routing over IPv6 (SRv6) Network Programming](https://datatracker.ietf.org/doc/html/rfc8986)
+- [RFC 8986: Segment Routing over IPv6 (SRv6) Network Programming](https://datatracker.ietf.org/doc/html/rfc8986)
 - [Related: Segment Routing MPLS](segment-routing-mpls.md)
+- [Related: FRR SRv6 L3VPN Lab](frr-srv6-mpls.md)
 - [Related: MPLS Traffic Engineering (SR-TE)](mpls-traffic-engineering.md)
 
 ## Try It
