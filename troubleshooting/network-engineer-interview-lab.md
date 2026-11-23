@@ -14,6 +14,8 @@ Then, after the candidate is done:
 
 ## What You'll Build
 
+![PC1 (Linux host) on CORE (Cisco IOL). CORE links to EDGE1 (Cisco IOL, primary circuit) and EDGE2 (Cisco IOL, backup circuit). Both edges link to ISP (Cisco IOL, AS 64500), and ISP links to INET (Linux host, "the internet"). OSPF area 0 inside the branch.](images/network-engineer-interview-lab.png)
+
 - Four Cisco IOL routers (CORE, EDGE1, EDGE2, ISP) and two Linux hosts (PC1 on the branch LAN, INET as "the internet")
 - A branch in AS 65010 running OSPF area 0, with a primary and a backup eBGP circuit to one provider in AS 64500
 - Three faults in the startup configs, so a redeploy resets the lab for the next candidate
