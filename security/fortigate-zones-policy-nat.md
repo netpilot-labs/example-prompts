@@ -42,6 +42,7 @@ Open it [prefilled in NetPilot](https://app.netpilot.io/?prompt=Build%20me%20a%2
 
 - [NetPilot blog: Firewall lab with Palo Alto and FortiGate](https://www.netpilot.io/blog/firewall-lab-palo-alto-fortinet)
 - [NetPilot firewall lab page](https://www.netpilot.io/firewall-lab)
+- [Video: FortiGate Lab in Minutes: Build Zones, NAT and a Firewall Policy](https://www.youtube.com/watch?v=NTI95FHN6xo)
 - [Fortinet FortiGate documentation](https://docs.fortinet.com/product/fortigate/7.0)
 - [Firewall DMZ Zones with Fortinet](firewall-dmz-zones-fortinet.md)
 - [Firewall DMZ Zones with Palo Alto](firewall-dmz-zones-palo-alto.md)
