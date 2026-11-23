@@ -10,6 +10,8 @@ Open it [prefilled in NetPilot](https://app.netpilot.io/?prompt=FAA%20ground%20s
 
 ## What You'll Build
 
+![R1, R2 and R3 (Cisco IOL) form an OSPF area 0 triangle, the legacy core slowed by legacy-core.sh. host-a hangs off R1 and host-b off R2. JNEW (Juniper cRPD, the new router) links to R1 and R3 and runs flood.py, a TCP 179 flood at the core](images/router-swap-flood-rehearsal.png)
+
 - 3 Cisco IOL routers as the legacy core on OSPF area 0, a Linux host on two of them
 - 1 Juniper cRPD router as the new router, linked to two core routers and running OSPF with them
 - The legacy-core limit from the lab: a Cisco router busy answering a flood gets almost no CPU, as old equipment would

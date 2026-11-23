@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 
 ## What You'll Build
 
+![gw (MikroTik CHR) links ether2 to ether2 on isp (MikroTik CHR). pc1 (Linux host) on gw ether3, pc2 (Linux host) on gw ether4, web (Linux host, 203.0.113.10) on isp ether3](images/mikrotik-routeros-practice-lab.png)
+
 - A MikroTik CHR gateway and a CHR ISP router
 - A LAN bridge with a DHCP server and two Linux PCs
 - A Linux web server behind the ISP

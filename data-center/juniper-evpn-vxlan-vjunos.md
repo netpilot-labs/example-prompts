@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=juniper), or [open it 
 
 ## What You'll Build
 
+![spine1 (Juniper vJunos-router, lo0 10.255.0.1) links to leaf1 (Juniper vJunos-switch, lo0 10.255.0.11) on 10.0.11.0/30 and to leaf2 (Juniper vJunos-switch, lo0 10.255.0.12) on 10.0.12.0/30. host1 (Linux host, 192.168.10.11) on leaf1, host2 (Linux host, 192.168.10.12) on leaf2, both in VLAN 10](images/juniper-evpn-vxlan-vjunos.png)
+
 - One spine on Juniper vJunos-router and two leaves on vJunos-switch, Junos 26.2R1.7, with a Linux host on each leaf
 - OSPF area 0 between the loopbacks on point-to-point fabric links
 - iBGP in AS 65000 with `family evpn signaling`, the spine as route reflector

@@ -10,6 +10,8 @@ Open it [prefilled in NetPilot](https://app.netpilot.io/?prompt=Build%20a%20SONi
 
 ## What You'll Build
 
+![spine1 and spine2 (SONiC, AS 65000) each link to leaf1 (SONiC, AS 65001) and leaf2 (SONiC, AS 65002). host1 (Linux host, 192.168.1.10) on leaf1, host2 (Linux host, 192.168.2.10) on leaf2](images/design-validation-spine-failure.png)
+
 - Two SONiC spines in AS 65000, leaf1 in AS 65001, leaf2 in AS 65002, eBGP on /31 links
 - A Linux host behind each leaf, 192.168.1.10/24 and 192.168.2.10/24
 - A failure drill: spine1's links to both leaves shut while host1 pings host2

@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=arista), or [open it w
 
 ## What You'll Build
 
+![sw1 (Arista cEOS, AS 65001) and sw2 (Arista cEOS, AS 65002) link Ethernet1 to Ethernet1 on 10.0.12.0/31. h1 (Linux host, 10.1.1.10) on sw1 Ethernet2, h2 (Linux host, 10.2.2.10) on sw2 Ethernet2](images/arista-ceos-ebgp-two-switches.png)
+
 - Two Arista cEOS switches, one AS each, on a routed /31 link
 - A Linux host on each switch's LAN
 - Each switch advertising its loopback and its LAN in BGP

@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 
 ## What You'll Build
 
+![r1 (MikroTik CHR, loopback 10.255.0.1) and r2 (MikroTik CHR, loopback 10.255.0.2) link ether2 to ether2 on 10.0.12.0/30](images/mikrotik-chr-ospf-two-routers.png)
+
 - Two MikroTik CHR routers on one link
 - OSPF in area 0
 - A loopback on each router, reachable from the other

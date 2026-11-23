@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=arista), or [open it w
 
 ## What You'll Build
 
+![leaf1 and leaf2 (Arista cEOS) joined by two links in peer link Port-Channel10, with VARP gateways 10.10.10.1 and 10.20.20.1. h1 (Linux host, 10.10.10.10, VLAN 10) links to both leaves on bond0 (mlag 1). sw3 (Arista cEOS) links to both leaves (mlag 2), and h2 (Linux host, 10.20.20.10, VLAN 20) links to sw3](images/arista-mlag-varp-pair.png)
+
 - Two Arista cEOS leaves in one MLAG domain, with a peer link and a peer address on VLAN 4094
 - VARP anycast gateways on VLANs 10 and 20
 - A Linux host on an LACP bond to both leaves

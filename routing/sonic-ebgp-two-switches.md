@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=sonic), or [open it wi
 
 ## What You'll Build
 
+![sw1 (SONiC, AS 65001) and sw2 (SONiC, AS 65002) link Ethernet0 to Ethernet0 on 10.0.0.0/31](images/sonic-ebgp-two-switches.png)
+
 - Two SONiC switches (the community `docker-sonic-vs` image) on one link
 - 10.0.0.0/31 on sw1's Ethernet0 and 10.0.0.1/31 on sw2's Ethernet0
 - eBGP between AS 65001 and AS 65002 in FRR

@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=sonic), or [open it wi
 
 ## What You'll Build
 
+![spine1 and spine2 (SONiC, AS 65000) each link to leaf1 (SONiC, AS 65001) and leaf2 (SONiC, AS 65002). host1 (Linux host, 192.168.1.10) on leaf1, host2 (Linux host, 192.168.2.10) on leaf2](images/sonic-bgp-leaf-spine-ecmp.png)
+
 - Two SONiC spines in AS 65000, leaf1 in AS 65001, leaf2 in AS 65002
 - eBGP on four /31 point-to-point links, each leaf to each spine
 - Loopbacks 10.255.0.11 and 10.255.0.12 on the leaves

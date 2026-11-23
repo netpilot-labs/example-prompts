@@ -18,6 +18,8 @@ Ran as written in ChatGPT on 2026-11-11: R2 read two neighbors FULL, R1 and R3 o
 
 ## What You'll Build
 
+![R1 (Cisco IOL) links to R2 (Arista cEOS) on 10.0.12.0/30, and R2 links to R3 (Juniper cRPD) on 10.0.23.0/30](images/all-vendors-ospf-area-0.png)
+
 - 5-router ring, one per major vendor
 - OSPF Area 0 across all 5 devices
 - Point-to-point /30 inter-router links

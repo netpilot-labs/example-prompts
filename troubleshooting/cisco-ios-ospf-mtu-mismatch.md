@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=cisco), or [open it wi
 
 ## What You'll Build
 
+![R1 and R2 (Cisco IOL) link to each other. host1 (Linux host, 192.168.1.10) on R1, host2 (Linux host, 192.168.2.10) on R2](images/cisco-ios-ospf-mtu-mismatch.png)
+
 - Two Cisco IOL routers, R1 and R2, on 10.0.12.0/30 in OSPF area 0
 - A Linux host on each LAN: host1 at 192.168.1.10/24, host2 at 192.168.2.10/24
 - One planted fault: `ip mtu 1400` on R2's link toward R1

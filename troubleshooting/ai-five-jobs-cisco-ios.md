@@ -27,6 +27,8 @@ Last, the handover:
 
 ## What You'll Build
 
+![HQ-R1 (Cisco IOL) links to BRA-R1 and BRB-R1 (Cisco IOL). HQ-H1 (Linux host) on HQ-R1, BRA-H1 (Linux host) on BRA-R1, BRB-H1 (Linux host) on BRB-R1](images/ai-five-jobs-cisco-ios.png)
+
 - Three Cisco IOL 17.12.1 routers in a hub and spoke: head office 10.10.0.0/24, branch A 10.20.0.0/24, branch B 10.30.0.0/24, no branch-to-branch link
 - OSPF area 0 on /30 WAN links with loopback router IDs, a Linux host at .10 on each LAN
 - A planted OSPF area mismatch on branch B's WAN link, found from the symptom alone

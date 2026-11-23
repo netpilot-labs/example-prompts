@@ -10,6 +10,8 @@ Open it [prefilled in NetPilot](https://app.netpilot.io/?prompt=Build%20me%20a%2
 
 ## What You'll Build
 
+![PC1 (Linux host, 192.168.10.10) links to FGT1 (FortiGate, FortiOS 7.0.9) on port2, the INSIDE zone, and FGT1 links to WEB1 (Linux host, 203.0.113.10) on port3, the OUTSIDE zone. FGT1 source-NATs the inside to 203.0.113.1](images/fortigate-zones-policy-nat.png)
+
 - One Fortinet FortiGate (FortiOS 7.0.9) with port2 in an INSIDE zone and port3 in an OUTSIDE zone
 - A Linux PC on 192.168.10.0/24 and a Linux web server on 203.0.113.0/24 (a documentation range)
 - Policy 1, INSIDE to OUTSIDE, accept with `nat enable`, and the implicit deny for everything else

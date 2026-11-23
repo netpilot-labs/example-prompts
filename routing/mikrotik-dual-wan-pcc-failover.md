@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 
 ## What You'll Build
 
+![gw (MikroTik CHR) links to isp1 (MikroTik CHR) on ether2 and to isp2 (MikroTik CHR) on ether3. pc1 (Linux host) on gw ether4. isp1 and isp2 each link to web (Linux host, 203.0.113.10)](images/mikrotik-dual-wan-pcc-failover.png)
+
 - A gateway, two ISP routers and an upstream router on MikroTik RouterOS 7, plus a web server and a PC
 - PCC load balancing across both WANs
 - Recursive check-gateway, so the gateway sees a failure past its neighbor

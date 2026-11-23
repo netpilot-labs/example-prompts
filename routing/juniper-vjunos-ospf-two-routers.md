@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=juniper), or [open it 
 
 ## What You'll Build
 
+![r1 and r2 (Juniper vJunos-router) link ge-0/0/0 to ge-0/0/0 on 10.0.12.0/30. h1 (Linux host, 10.1.1.10) on r1 ge-0/0/1, h2 (Linux host, 10.2.2.10) on r2 ge-0/0/1](images/juniper-vjunos-ospf-two-routers.png)
+
 - Two Juniper vJunos-routers, r1 and r2, on 10.0.12.0/30
 - Loopbacks 10.255.0.1 and 10.255.0.2
 - h1 at 10.1.1.10/24 behind r1 and h2 at 10.2.2.10/24 behind r2

@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=sonic), or [open it wi
 
 ## What You'll Build
 
+![spine (SONiC, AS 65000) links to leaf1 (SONiC, AS 65001, VTEP 10.1.1.1) and leaf2 (SONiC, AS 65002, VTEP 10.1.1.2). host1 (Linux host, 192.168.100.11) on leaf1, host2 (Linux host, 192.168.100.12) on leaf2, VLAN 100 on VNI 10100](images/sonic-evpn-vxlan-l2vni.png)
+
 - One SONiC spine in AS 65000 and two leaves in AS 65001 and AS 65002
 - An eBGP underlay on point-to-point links, leaf loopbacks 10.1.1.1 and 10.1.1.2 as the VTEPs
 - A BGP EVPN overlay through the spine

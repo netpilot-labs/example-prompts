@@ -10,6 +10,8 @@ Copy this into [NetPilot](https://app.netpilot.io/?vendor=mikrotik), or [open it
 
 ## What You'll Build
 
+![edge (MikroTik CHR) links to out (Linux host, 203.0.113.1) on ether2 and to pc1 (Linux host, 192.168.88.10) on ether3](images/mikrotik-firewall-hardening-mikrotrick.png)
+
 - An edge router on MikroTik RouterOS 7.24.5, past every MikroTrick fix, with a PC on the LAN and an outside host on the WAN
 - A scan from outside before and after hardening
 - An audit of the version, IP services, the input chain, users, scripts and the scheduler

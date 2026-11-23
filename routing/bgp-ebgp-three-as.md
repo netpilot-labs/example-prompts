@@ -18,6 +18,8 @@ Ran as written in Claude on 2026-11-11: both of R2's sessions established, and t
 
 ## What You'll Build
 
+![R1 (Arista cEOS, AS 65001) links to R2 (Nokia SR Linux, AS 65002) on 10.1.2.0/30, and R2 links to R3 (FRR, AS 65003) on 10.2.3.0/30](images/bgp-ebgp-three-as.png)
+
 - 3 routers, 3 different vendors (Cisco, Juniper, Arista)
 - Point-to-point eBGP peering between each adjacent pair
 - Loopback advertisement and propagation

@@ -16,6 +16,8 @@ The prompt gives no IP plan, AS numbers or VNIs. The agent picks them and tells 
 
 ## What You'll Build
 
+![spine1 and spine2 (Arista cEOS, AS 65100) each link to leaf1 (Arista cEOS border leaf, AS 65001) and leaf2 (Nokia SR Linux, AS 65002). wan1 (Cisco IOL, AS 65500) links to leaf1. host1 (Linux host) on leaf1, host2 (Linux host) on leaf2](images/evpn-vxlan-fabric-design-check.png)
+
 - Two Arista cEOS spines, an Arista cEOS border leaf and a Nokia SR Linux leaf
 - A Cisco IOL router as the WAN edge, in BGP with the border leaf inside the tenant VRF
 - eBGP underlay, BGP EVPN overlay, one VLAN stretched over VXLAN and one routed VRF on an L3 VNI
