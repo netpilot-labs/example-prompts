@@ -124,6 +124,7 @@ Find a fault from the symptom, fix it and prove it on the CLI.
 
 - [Cisco IOS OSPF MTU Mismatch Lab: Neighbors Stuck in EXSTART](troubleshooting/cisco-ios-ospf-mtu-mismatch.md) ⭐
 - [Cisco IOS Hub and Spoke OSPF: Design, Deploy, Troubleshoot and Document with an AI Agent](troubleshooting/ai-five-jobs-cisco-ios.md) ⭐⭐
+- [Network Engineer Interview Lab: 3 OSPF and BGP Faults on Real Cisco IOS](troubleshooting/network-engineer-interview-lab.md) ⭐⭐
 
 ### 🎯 POC / Sales Engineering
 Customer-matched POC labs for sales engineers, solutions architects, and pre-sales teams. Describe the prospect's network in plain English and send them a shareable URL.
