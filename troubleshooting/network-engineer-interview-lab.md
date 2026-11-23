@@ -54,6 +54,7 @@ Fixing fault 1 brings the internet back, so the ticket looks solved. Fixing faul
 
 ## Related Resources
 
+- [The write-up: the three faults, the commands and the fixes](https://www.netpilot.io/blog/network-engineer-troubleshooting-interview-lab)
 - [Video: The Network Engineer Interview AI Can't Fake: 3 Faults on Real Cisco Routers](https://www.youtube.com/watch?v=WDD1Edggfv8)
 - [Run it yourself: the lab files and the answer key](https://github.com/netpilot-labs/network-labs/tree/main/cisco/interview-ospf-bgp-troubleshooting)
 - [Cisco IOS OSPF MTU Mismatch Lab](cisco-ios-ospf-mtu-mismatch.md)
