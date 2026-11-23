@@ -87,6 +87,7 @@ Firewall zones, microsegmentation, zero-trust patterns.
 
 - [Firewall DMZ Zones (Palo Alto)](security/firewall-dmz-zones-palo-alto.md) ⭐⭐
 - [Firewall DMZ Zones (Fortinet)](security/firewall-dmz-zones-fortinet.md) ⭐⭐
+- [FortiGate Zones, Policy and Source NAT](security/fortigate-zones-policy-nat.md) ⭐⭐
 - [IPsec VPN: Site-to-Site](security/ipsec-vpn-site-to-site.md) ⭐⭐
 - [Zero-Trust Microsegmentation](security/zero-trust-microsegmentation.md) ⭐⭐⭐
 - [DDoS Blackhole (RTBH)](security/ddos-rtbh-blackhole.md) ⭐⭐⭐
